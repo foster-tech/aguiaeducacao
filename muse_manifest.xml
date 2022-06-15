@@ -1,0 +1,513 @@
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="aguia.com" resolutions="1x" timestamp="1525777787498">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="index.css" crc="3909267159" ref="index"/>
+    <file name="iefonts_index.css" crc="4206980732" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="695wi.pdf" crc="86925659" seo="true" mt="1524696333000"/>
+    <file name="1460ui.pdf" crc="352269352" seo="true" mt="1524828332000"/>
+    <file name="20555u.pdf" crc="4204507110" seo="true" mt="1524828332000"/>
+    <file name="l1405.pdf" crc="80222967" seo="true" mt="1524828332000"/>
+    <file name="bl710u.pdf" crc="488657724" seo="true" mt="1525698268000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:index"/>
+    <file name="museutils.js" crc="340535759" ref="phone>index:index"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>index:index"/>
+    <file name="museconfig.js" crc="4286661555" ref="phone>index:index"/>
+    <file name="jquery.watch.js" crc="51536988" ref="phone>index:index"/>
+    <file name="webpro.js" crc="4059564322" ref="phone>index:index"/>
+    <file name="musewpslideshow.js" crc="3862962738" ref="phone>index:index"/>
+    <file name="jquery.museoverlay.js" crc="4147669564" ref="phone>index:index"/>
+    <file name="touchswipe.js" crc="4075097462" ref="phone>index:index"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="phone>index:index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="phone>index:index"/>
+    <file name="form_check.php" crc="4020933626" ref="phone>index"/>
+    <file name="form_throttle.php" crc="4259590256" ref="phone>index"/>
+    <file name="form_process.php" crc="37464564" ref="phone>index"/>
+    <file name="form-u14468.php" crc="462035272" ref="phone>index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="phone>index:index"/>
+    <file name="require.js" crc="7928878" ref="phone>index:index"/>
+    <file name="form-u4461.php" crc="414560058" ref="index"/>
+    <file name="form-u4273.php" crc="4024219161" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="39568856" ref="index:phone>index"/>
+  </folder>
+  <folder name="images">
+    <file name="capas1.jpg" crc="3765595453" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="phone>index:index"/>
+    <file name="capas2.jpg" crc="3935835995" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="capas3.jpg" crc="4180839969" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="capas4.jpg" crc="194090344" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="capas8.jpg" crc="345127347" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="capas7.jpg" crc="3817534579" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="capas5.jpg" crc="254938088" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="loading.gif" crc="3815509949" ref="phone>index:index"/>
+    <file name="s_poster_u843.png" crc="4243172584" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="f.png" crc="479400466" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logom.png" crc="3889696627" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo3-u12686-fr.png" crc="4119809801" ref="phone>index"/>
+    <file name="24.png" crc="3834984896" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="porto-seguro.png" crc="4272966004" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="salesiana.png" crc="4115422002" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="adventista.png" crc="126462246" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logomiraflores.png" crc="156810017" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="colegio-magno.png" crc="13769783" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="escola-mobile.jpg" crc="3994592275" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="port-u12760-fr.jpg" crc="4181182608" ref="phone>index"/>
+    <file name="group.png" crc="4262357679" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="group 4.png" crc="4067289792" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="goo.png" crc="4009983132" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="695wi_rt_ang_mount.png" crc="4084545873" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-1.jpg" crc="398336006" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h.jpg" crc="4156831680" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-2.jpg" crc="3812569690" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h 2.png" crc="448615516" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-2 2.png" crc="4261040545" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1450ui - 1460ui.png" crc="473454706" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-12.jpg" crc="3952249263" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-22.jpg" crc="243322380" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-3.jpg" crc="3819476236" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="eb-2255u_01 impresion.png" crc="232551426" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-13.jpg" crc="4059196957" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-32.jpg" crc="441686909" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-4.jpg" crc="77741224" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-1.png" crc="4200294368" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-14.jpg" crc="53457261" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-6.jpg" crc="3989127644" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-7.jpg" crc="276510365" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bl710ui_hero-left_690x460-u13430-fr.jpg" crc="3849159294" ref="phone>index"/>
+    <file name="bl710ui_hero_690x460.jpg" crc="4009371950" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bl710ui_back-panel_690x460.jpg" crc="4166587488" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bl710ui_hero-left_690x460.jpg" crc="157444665" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chromebook-pro_3-v2_52317-u13568-fr.jpg" crc="3956830487" ref="phone>index"/>
+    <file name="chromebook-pro_2-v2_52317.jpg" crc="450596582" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chromebook-pro_1-v2_52317.jpg" crc="88226982" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chromebook-pro_3-v2_52317.jpg" crc="142272275" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="nb257_02-u13717-fr.jpg" crc="4198075506" ref="phone>index"/>
+    <file name="nb257_02.jpg" crc="4054260393" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="nb257_01.jpg" crc="742704" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chromebook_11_n7_white_main_1-u13845-fr.png" crc="4240197295" ref="phone>index"/>
+    <file name="acer-chromebook-11-n7_white_gallery_02_1.png" crc="139905656" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chromebook_11_n7_white_main_1.png" crc="492235176" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="acer-chromebook-11-n7_white_gallery_04_1.png" crc="4159259491" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="g suite.jpg" crc="368043713" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1.jpg" crc="3938869590" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="2.jpg" crc="405186545" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="3.jpg" crc="319211002" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="4.jpg" crc="3897338697" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="5.jpg" crc="3854857332" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="6.jpg" crc="4285707441" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="7.jpg" crc="4204850527" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="8.jpg" crc="472261690" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="9.jpg" crc="473746840" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="172x54.jpg" crc="473553590" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="272x54.jpg" crc="4179385450" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="372x54.jpg" crc="3963459369" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="472x54.jpg" crc="4205623963" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="572x54.jpg" crc="4022344076" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="672x54.jpg" crc="175811349" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="772x54.jpg" crc="4212111230" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="872x54.jpg" crc="522757564" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="972x54.jpg" crc="383620343" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="shutterstock_686342803 low.jpg" crc="516440163" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="shutterstock_706538974 low.jpg" crc="322546301" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="shutterstock_701872057 low.jpg" crc="427158758" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="shutterstock_50486074 low.jpg" crc="4188752673" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="shutterstock_284308823 low.jpg" crc="3818387280" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="shutterstock_757774588 low.jpg" crc="4257504851" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="fale.jpg" crc="3781834058" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="fale_logo.png" crc="81079214" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="shape_poster_u804.png" crc="4257605702" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo.png" crc="159588131" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chat-button.png" crc="3972790756" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo3.png" crc="434666268" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="port.jpg" crc="3835242013" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="nb257_02-u10458-fr.jpg" crc="100881447" ref="index"/>
+    <file name="bl710ui_hero-left_690x460-u12214-fr.jpg" crc="291986288" ref="index"/>
+    <file name="chromebook_11_n7_white_main_1-u10624-fr.png" crc="496069753" ref="index"/>
+    <file name="chromebook-pro_3-v2_52317-u10278-fr.jpg" crc="419750179" ref="index"/>
+    <file name="partnership-pbbx.jpg" crc="77673082" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-1-crop-u12813.jpg" crc="431050366" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-194x63.jpg" crc="4160392861" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h 2-crop-u12828.png" crc="3997468311" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-2 2-crop-u12830.png" crc="4253974839" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-194x632.jpg" crc="96492863" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-371x47.jpg" crc="83667872" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-194x633.jpg" crc="4099473078" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-498x65.jpg" crc="4191376950" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-194x634.jpg" crc="4225880479" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-798x65.jpg" crc="4284450634" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bl710ui_hero_690x46094x63.jpg" crc="3992552244" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bl710ui_hero-left_690x46098x65.jpg" crc="474361074" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chromebook-pro_2-v2_5231784x63.jpg" crc="3925713222" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chromebook-pro_1-v2_5231786x65.jpg" crc="44427483" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chromebook-pro_3-v2_5231773x65.jpg" crc="4527403" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="nb257_0183x83.jpg" crc="3881396905" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chromebook_11_n7_white_main_1-crop-u13872.png" crc="521609193" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="acer-chromebook-11-n7_white_gallery_02_189x71.png" crc="3843777793" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chromebook_11_n7_white_main_182x82.png" crc="4089427294" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="acer-chromebook-11-n7_white_gallery_04_182x65.png" crc="3915709473" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1306x230.jpg" crc="145554438" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="2306x230.jpg" crc="3969623212" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="3306x230.jpg" crc="319677594" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="4306x230.jpg" crc="239382329" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="5306x230.jpg" crc="192308556" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="6306x230.jpg" crc="439817506" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="7306x230.jpg" crc="4170043916" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="8306x230.jpg" crc="4139139564" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="9306x230.jpg" crc="4104128467" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="linkedin.png" crc="305689308" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-1174x116.jpg" crc="297225376" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-1174x1162.jpg" crc="6896107" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-7180x120.jpg" crc="221660406" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="nb257_01152x152.jpg" crc="17631698" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-1205x137.jpg" crc="4049817993" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-3154x103.jpg" crc="3938908972" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bl710ui_hero_690x460174x116.jpg" crc="400709104" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bl710ui_hero-left_690x460180x120.jpg" crc="3989633289" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="acer-chromebook-11-n7_white_gallery_02_1165x130.png" crc="308779641" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chromebook_11_n7_white_main_1150x150.png" crc="375855498" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="acer-chromebook-11-n7_white_gallery_04_1152x120.png" crc="65012138" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-1174x1163.jpg" crc="497867636" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1200wx1200h-4180x120.jpg" crc="536671529" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chromebook-pro_2-v2_52317155x116.jpg" crc="182094044" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chromebook-pro_1-v2_52317159x119.jpg" crc="4243244667" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chromebook-pro_3-v2_52317134x120.jpg" crc="3915795157" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="24-u12714-fr.png" crc="358565676" ref="phone>index"/>
+    <file name="porto-seguro-u12718-fr.png" crc="57647553" ref="phone>index"/>
+    <file name="salesiana-u12717-fr.png" crc="199531387" ref="phone>index"/>
+    <file name="adventista-u12716-fr.png" crc="369511534" ref="phone>index"/>
+    <file name="logomiraflores-u12715-fr.png" crc="145250681" ref="phone>index"/>
+    <file name="colegio-magno-u12712-fr.png" crc="4242657157" ref="phone>index"/>
+    <file name="escola-mobile-u12713-fr.jpg" crc="134672540" ref="phone>index"/>
+    <file name="group 4-u12763-fr.png" crc="4061641672" ref="phone>index"/>
+    <file name="goo-u12764-fr.png" crc="3772393041" ref="phone>index"/>
+    <file name="partnership-pbbx2.jpg" crc="4275292370" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="index.css" crc="348938899" ref="phone>index"/>
+      <file name="iefonts_index.css" crc="33840004" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="2394657" seo="true" mt="1525777745944" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="151950966" seo="true" mt="1525777765428" redirect="true"/>
+</manifest>
