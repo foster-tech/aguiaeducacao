@@ -1,1244 +1,1013 @@
 <!DOCTYPE html>
 <html class="nojs html" lang="pt-BR">
- <head>
+<head>
 
-  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
-  <meta name="generator" content="2018.1.0.386"/>
-  
-  <script type="text/javascript">
-   // Redirect to phone/tablet as necessary
-(function(c,b,d){var a=function(){if(navigator.maxTouchPoints>1)return!0;if(window.matchMedia&&window.matchMedia("(-moz-touch-enabled)").matches)return!0;for(var a=["Webkit","Moz","O","ms","Khtml"],b=0,c=a.length;b<c;b++){var d=a[b]+"MaxTouchPoints";if(d in navigator&&navigator[d])return!0}try{return document.createEvent("TouchEvent"),!0}catch(f){}return!1}(),f=function(a){a+="=";for(var b=document.cookie.split(";"),c=0;c<b.length;c++){for(var d=b[c];d.charAt(0)==" ";)d=d.substring(1,d.length);if(d.indexOf(a)==
+ <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+ <meta name="generator" content="2018.1.0.386"/>
 
-0)return d.substring(a.length,d.length)}return null};if(f("inbrowserediting")!="true"){var h,f=f("devicelock");f=="phone"&&d?h=d:f=="tablet"&&b&&(h=b);if(f!=c&&!h)if(window.matchMedia)window.matchMedia("(max-device-width: 415px)").matches&&d?h=d:window.matchMedia("(max-device-width: 960px)").matches&&b&&a&&(h=b);else{var c=Math.min(screen.width,screen.height)/(window.devicePixelRatio||1),f=window.screen.systemXDPI||0,g=window.screen.systemYDPI||0,f=f>0&&g>0?Math.min(screen.width/f,screen.height/g):
+ <script type="text/javascript">
+  // Redirect to phone/tablet as necessary
+  (function(c,b,d){var a=function(){if(navigator.maxTouchPoints>1)return!0;if(window.matchMedia&&window.matchMedia("(-moz-touch-enabled)").matches)return!0;for(var a=["Webkit","Moz","O","ms","Khtml"],b=0,c=a.length;b<c;b++){var d=a[b]+"MaxTouchPoints";if(d in navigator&&navigator[d])return!0}try{return document.createEvent("TouchEvent"),!0}catch(f){}return!1}(),f=function(a){a+="=";for(var b=document.cookie.split(";"),c=0;c<b.length;c++){for(var d=b[c];d.charAt(0)==" ";)d=d.substring(1,d.length);if(d.indexOf(a)==
 
-0;(c<=370||f!=0&&f<=3)&&d?h=d:c<=960&&b&&a&&(h=b)}if(h)document.location=h+(document.location.search||"")+(document.location.hash||""),document.write('<style type="text/css">body {visibility:hidden}</style>')}})("desktop","","phone/index.html");
+          0)return d.substring(a.length,d.length)}return null};if(f("inbrowserediting")!="true"){var h,f=f("devicelock");f=="phone"&&d?h=d:f=="tablet"&&b&&(h=b);if(f!=c&&!h)if(window.matchMedia)window.matchMedia("(max-device-width: 415px)").matches&&d?h=d:window.matchMedia("(max-device-width: 960px)").matches&&b&&a&&(h=b);else{var c=Math.min(screen.width,screen.height)/(window.devicePixelRatio||1),f=window.screen.systemXDPI||0,g=window.screen.systemYDPI||0,f=f>0&&g>0?Math.min(screen.width/f,screen.height/g):
+
+          0;(c<=370||f!=0&&f<=3)&&d?h=d:c<=960&&b&&a&&(h=b)}if(h)document.location=h+(document.location.search||"")+(document.location.hash||""),document.write('<style type="text/css">body {visibility:hidden}</style>')}})("desktop","","phone/index.html");
 
 
-// Update the 'nojs'/'js' class on the html node
-document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
+  // Update the 'nojs'/'js' class on the html node
+  document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
-// Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.watch.js", "jquery.musepolyfill.bgsize.js", "jquery.musemenu.js", "jquery.scrolleffects.js", "require.js", "index.css"], "outOfDate":[]};
-</script>
-  
-  <link media="only screen and (max-width: 370px)" rel="alternate" href="http://aguia.com/phone/index.html"/>
-  <title>águia</title>
-  <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3909267159" id="pagesheet"/>
-  <!-- IE-only CSS -->
-  <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?crc=4206980732"/>
-  <![endif]-->
-  <!-- Other scripts -->
-  <script type="text/javascript">
-   var __adobewebfontsappname__ = "muse";
-</script>
-  <!-- JS includes -->
-  <script src="https://webfonts.creativecloud.com/lato:n4,i4,n3,n7:default.js" type="text/javascript"></script>
-  <!--[if lt IE 9]>
-  <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
-  <![endif]-->
-   </head>
- <body>
+  // Check that all required assets are uploaded and up-to-date
+  if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.watch.js", "jquery.musepolyfill.bgsize.js", "jquery.musemenu.js", "jquery.scrolleffects.js", "require.js", "index.css"], "outOfDate":[]};
+ </script>
 
-  <div class="clearfix" id="page"><!-- group -->
-   <div class="clearfix grpelem" id="phome"><!-- column -->
-    <a class="anchor_item colelem" id="home"></a>
-    <a class="anchor_item colelem" id="quem"></a>
-    <a class="anchor_item colelem" id="clientes"></a>
-    <a class="anchor_item colelem" id="parceiros"></a>
-    <a class="anchor_item colelem" id="produtos"></a>
-    <a class="anchor_item colelem" id="automacao"></a>
-    <a class="anchor_item colelem" id="consultoria"></a>
-    <a class="anchor_item colelem" id="fale2"></a>
-   </div>
-   <div class="clearfix grpelem" id="pslideshowu7330"><!-- group -->
-    <div class="SlideShowWidget clearfix align_parts_to_page HeroFillFrame mse_pre_init" id="slideshowu7330"><!-- none box -->
-     <div class="popup_anchor" id="u7360popup">
-      <div class="SlideShowContentPanel clearfix" id="u7360"><!-- stack box -->
-       <div class="SSSlide clip_frame grpelem" id="u7361"><!-- image -->
-        <img class="ImageInclude" id="u7361_img" data-src="images/capas1.jpg?crc=3765595453" src="images/blank.gif?crc=4208392903" alt="" data-width="1600" data-height="989"/>
-       </div>
-       <div class="SSSlide invi clip_frame grpelem" id="u7369"><!-- image -->
-        <img class="ImageInclude" id="u7369_img" data-src="images/capas2.jpg?crc=3935835995" src="images/blank.gif?crc=4208392903" alt="" data-width="1600" data-height="989"/>
-       </div>
-       <div class="SSSlide invi clip_frame grpelem" id="u7365"><!-- image -->
-        <img class="ImageInclude" id="u7365_img" data-src="images/capas3.jpg?crc=4180839969" src="images/blank.gif?crc=4208392903" alt="" data-width="1600" data-height="989"/>
-       </div>
-       <div class="SSSlide invi clip_frame grpelem" id="u7363"><!-- image -->
-        <img class="ImageInclude" id="u7363_img" data-src="images/capas4.jpg?crc=194090344" src="images/blank.gif?crc=4208392903" alt="" data-width="1600" data-height="989"/>
-       </div>
-       <div class="SSSlide invi clip_frame grpelem" id="u7371"><!-- image -->
-        <img class="ImageInclude" id="u7371_img" data-src="images/capas7.jpg?crc=3817534579" src="images/blank.gif?crc=4208392903" alt="" data-width="1600" data-height="989"/>
-       </div>
-       <div class="SSSlide invi clip_frame grpelem" id="u7367"><!-- image -->
-        <img class="ImageInclude" id="u7367_img" data-src="images/capas8.jpg?crc=345127347" src="images/blank.gif?crc=4208392903" alt="" data-width="1600" data-height="989"/>
-       </div>
-       <div class="SSSlide invi clip_frame grpelem" id="u7373"><!-- image -->
-        <img class="ImageInclude" id="u7373_img" data-src="images/capas5.jpg?crc=254938088" src="images/blank.gif?crc=4208392903" alt="" data-width="1600" data-height="989"/>
-       </div>
-      </div>
-     </div>
-    </div>
-    <div class="browser_width mse_pre_init" id="u4456-bw">
-     <div id="u4456"><!-- simple frame --></div>
-    </div>
-    <div class="browser_width mse_pre_init" id="u6354-bw">
-     <div id="u6354"><!-- simple frame --></div>
-    </div>
-   </div>
-   <div class="clearfix grpelem" id="pu11934"><!-- column -->
-    <div class="clearfix colelem" id="u11934"><!-- group -->
-     <a href="https://instagram.com/aguiaeducacao2020?igshid=YmMyMTA2M2Y=">
-      <img id="igImg" src="images/Ig.png">
-     </a>
-     <div class="clearfix grpelem" id="u4458-4"><!-- content -->
-      <p>SIGA-NOS EM:</p>
-     </div>
-     <div class="clearfix grpelem" id="u4457"><!-- group -->
-     </div>
-    </div>
-    <div class="clearfix colelem" id="pu4405"><!-- group -->
-     <div class="grpelem" id="u4405"><!-- content --></div>
-     <nav class="MenuBar clearfix grpelem" id="menuu4406"><!-- vertical box -->
-      <div class="MenuItemContainer clearfix colelem" id="u4421"><!-- horizontal box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing transition clearfix grpelem" id="u4422" href="index.html#quem"><!-- vertical box --><div class="MenuItemLabel clearfix colelem" id="u4424-4"><!-- content --><p>QUEM SOMOS</p></div></a>
-      </div>
-      <div class="MenuItemContainer clearfix colelem" id="u4442"><!-- horizontal box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing transition clearfix grpelem" id="u4443" href="index.html#clientes"><!-- vertical box --><div class="MenuItemLabel clearfix colelem" id="u4445-4"><!-- content --><p>CLIENTES</p></div></a>
-      </div>
-      <div class="MenuItemContainer clearfix colelem" id="u4414"><!-- horizontal box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing transition clearfix grpelem" id="u4417" href="index.html#parceiros"><!-- vertical box --><div class="MenuItemLabel clearfix colelem" id="u4418-4"><!-- content --><p>PARCEIROS</p></div></a>
-      </div>
-      <div class="MenuItemContainer clearfix colelem" id="u4428"><!-- horizontal box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing transition clearfix grpelem" id="u4429" href="index.html#produtos"><!-- vertical box --><div class="MenuItemLabel clearfix colelem" id="u4431-4"><!-- content --><p>PRODUTOS &amp; SERVIÇOS</p></div></a>
-      </div>
-      <div class="MenuItemContainer clearfix colelem" id="u4435"><!-- horizontal box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing transition clearfix grpelem" id="u4436" href="index.html#automacao"><!-- vertical box --><div class="MenuItemLabel clearfix colelem" id="u4437-4"><!-- content --><p>AUTOMAÇÃO</p></div></a>
-      </div>
-      <div class="MenuItemContainer clearfix colelem" id="u7634"><!-- horizontal box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing transition clearfix grpelem" id="u7637" href="index.html#consultoria"><!-- vertical box --><div class="MenuItemLabel clearfix colelem" id="u7638-4"><!-- content --><p>CONSULTORIA E INVESTIMENTOS</p></div></a>
-      </div>
-      <div class="MenuItemContainer clearfix colelem" id="u4407"><!-- horizontal box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing transition clearfix grpelem" id="u4410" href="index.html#fale2"><!-- vertical box --><div class="MenuItemLabel clearfix colelem" id="u4412-4"><!-- content --><p>FALE CONOSCO</p></div></a>
-      </div>
-     </nav>
-     <div class="clearfix grpelem" id="u4460-6"><!-- content -->
-      <p>Águia Educação.</p>
-      <p>Sua Edutech Tem Solução.</p>
-     </div>
-    </div>
+ <link media="only screen and (max-width: 370px)" rel="alternate" href="http://aguia.com/phone/index.html"/>
+ <title>águia</title>
+ <!-- CSS -->
+ <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
+ <link rel="stylesheet" type="text/css" href="css/index.css?crc=3909267159" id="pagesheet"/>
+ <!-- IE-only CSS -->
+ <!--[if lt IE 9]>
+ <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?crc=4206980732"/>
+ <![endif]-->
+ <!-- Other scripts -->
+ <script type="text/javascript">
+  var __adobewebfontsappname__ = "muse";
+ </script>
+ <!-- JS includes -->
+ <script src="https://webfonts.creativecloud.com/lato:n4,i4,n3,n7:default.js" type="text/javascript"></script>
+ <!--[if lt IE 9]>
+ <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
+ <![endif]-->
+</head>
+<body>
 
-    <a class="nonblock nontext anim_swing colelem" id="u4474" href="index.html#fale2"><!-- content --></a>
-    <div class="browser_width colelem" id="u8917-bw">
-     <div id="u8917"><!-- group -->
-      <div class="clearfix" id="u8917_align_to_page">
-       <div class="clearfix grpelem" id="pu2053"><!-- column -->
-        <div class="colelem" id="u2053"><!-- simple frame --></div>
-        <div class="clearfix colelem" id="u2056-10"><!-- content -->
-         <p id="u2056-2">A ÁGUIA EDUCAÇÃO é uma empresa de tecnologia educacional especialista em soluções para os mercados público e privado. São 24 anos de know-how em tecnologia para salas de aula e outros ambientes, desenvolvendo projetos especiais para escolas dos governos municipais, estaduais e federal. O trabalho da Águia é integrar equipamentos como computadores, projetores, notebooks, chromebooks, câmeras, segurança, rede, soluções Google For Education (transformação de domínio, implantação, ensalamento e formação técnica, formação pedagógica, formação dos gestores e educadores) e Apps (Edu Dash, Dashboard, Pruvo e outros).</p>
-         <p id="u2056-3">&nbsp;</p>
-         <p id="u2056-5">“NOSSA MISSÃO É FAZER COM QUE VOCÊ, SUA ESCOLA, SEU MUNICÍPIO OU SEU ESTADO, ENCONTREM EM UM ÚNICO FORNECEDOR TODA SOLUÇÃO PARA ENTRAR NA ERA DA MODERNIDADE E INOVAÇÃO COM RAPIDEZ E AGILIDADE.” </p>
-         <p id="u2056-6">&nbsp;</p>
-         <p id="u2056-8">— Letícia Souza</p>
-        </div>
-        <div class="colelem" id="u2059"><!-- simple frame --></div>
-       </div>
-       <div class="museBGSize grpelem" id="u2037"><!-- content --></div>
-      </div>
+<div class="clearfix" id="page"><!-- group -->
+ <div class="clearfix grpelem" id="phome"><!-- column -->
+  <a class="anchor_item colelem" id="home"></a>
+  <a class="anchor_item colelem" id="quem"></a>
+  <a class="anchor_item colelem" id="clientes"></a>
+  <a class="anchor_item colelem" id="parceiros"></a>
+  <a class="anchor_item colelem" id="produtos"></a>
+  <a class="anchor_item colelem" id="automacao"></a>
+  <a class="anchor_item colelem" id="consultoria"></a>
+  <a class="anchor_item colelem" id="fale2"></a>
+ </div>
+ <div class="clearfix grpelem" id="pslideshowu7330"><!-- group -->
+  <div class="SlideShowWidget clearfix align_parts_to_page HeroFillFrame mse_pre_init" id="slideshowu7330"><!-- none box -->
+   <div class="popup_anchor" id="u7360popup">
+    <div class="SlideShowContentPanel clearfix" id="u7360"><!-- stack box -->
+     <div class="SSSlide clip_frame grpelem" id="u7361"><!-- image -->
+      <img class="ImageInclude" id="u7361_img" data-src="images/capas1.jpg?crc=3765595453" src="images/blank.gif?crc=4208392903" alt="" data-width="1600" data-height="989"/>
+     </div>
+     <div class="SSSlide invi clip_frame grpelem" id="u7369"><!-- image -->
+      <img class="ImageInclude" id="u7369_img" data-src="images/capas2.jpg?crc=3935835995" src="images/blank.gif?crc=4208392903" alt="" data-width="1600" data-height="989"/>
+     </div>
+     <div class="SSSlide invi clip_frame grpelem" id="u7365"><!-- image -->
+      <img class="ImageInclude" id="u7365_img" data-src="images/capas3.jpg?crc=4180839969" src="images/blank.gif?crc=4208392903" alt="" data-width="1600" data-height="989"/>
+     </div>
+     <div class="SSSlide invi clip_frame grpelem" id="u7363"><!-- image -->
+      <img class="ImageInclude" id="u7363_img" data-src="images/capas4.jpg?crc=194090344" src="images/blank.gif?crc=4208392903" alt="" data-width="1600" data-height="989"/>
+     </div>
+     <div class="SSSlide invi clip_frame grpelem" id="u7371"><!-- image -->
+      <img class="ImageInclude" id="u7371_img" data-src="images/capas7.jpg?crc=3817534579" src="images/blank.gif?crc=4208392903" alt="" data-width="1600" data-height="989"/>
+     </div>
+     <div class="SSSlide invi clip_frame grpelem" id="u7367"><!-- image -->
+      <img class="ImageInclude" id="u7367_img" data-src="images/capas8.jpg?crc=345127347" src="images/blank.gif?crc=4208392903" alt="" data-width="1600" data-height="989"/>
+     </div>
+     <div class="SSSlide invi clip_frame grpelem" id="u7373"><!-- image -->
+      <img class="ImageInclude" id="u7373_img" data-src="images/capas5.jpg?crc=254938088" src="images/blank.gif?crc=4208392903" alt="" data-width="1600" data-height="989"/>
      </div>
     </div>
-    <div class="browser_width colelem" id="u8534-bw">
-     <div id="u8534"><!-- column -->
-      <div class="clearfix" id="u8534_align_to_page">
-       <div class="colelem" id="u11858"><!-- simple frame --></div>
-       <div class="clearfix colelem" id="pu3855"><!-- group -->
-        <div class="museBGSize grpelem" id="u3855"><!-- content --></div>
-        <div class="museBGSize grpelem" id="u3859"><!-- content --></div>
-        <div class="museBGSize grpelem" id="u3858"><!-- content --></div>
-        <div class="museBGSize grpelem" id="p3858"><!-- content --></div>
-       </div>
-       <div class="clearfix colelem" id="pu3857"><!-- group -->
-        <div class="museBGSize grpelem" id="u3857"><!-- content --></div>
-        <div class="museBGSize grpelem" id="u3856"><!-- content --></div>
-        <div class="museBGSize grpelem" id="u3854"><!-- content --></div>
-        <div class="museBGSize grpelem" id="u7583"><!-- content --></div>
-       </div>
-       <div class="colelem" id="u3852"><!-- simple frame --></div>
-       <div class="clearfix colelem" id="u3853-8"><!-- content -->
-        <p id="u3853-2">A Águia Educação, gerenciada pela Letícia Souza, é um exemplo de bom atendimento ao cliente! Sempre que precisamos fomos atendidos com rapidez e eficiência. E a entrega dos produtos em nossas escolas se dá no menor prazo possível. Recomendo para todos!</p>
-        <p id="u3853-3">&nbsp;</p>
-        <p id="u3853-6"><span id="u3853-4">— </span><span id="u3853-5">Luiz Eduardo Cortez Diniz Rocha Lima - Diretor Geral Centro Educacional Miraflores</span></p>
-       </div>
-       <div class="clearfix colelem" id="u9793-8"><!-- content -->
-        <p id="u9793-2">O principal diferencial de um fornecedor para a Escola Móbile é a parceria, ou seja, uma empresa que esteja conectada com o dia a dia da instituição e que entenda o que estamos fazendo, que fale a mesma língua e nos acompanhe em nossos objetivos de curto, médio e longo prazo. Para nós, uma venda é o começo de um relacionamento que extrapola os limites do comercial, um produto adquirido será utilizado na formação de um aluno, por esse motivo, exigimos de nossos parceiros o mesmo padrão de qualidade que aplicamos em nossa Escola. A ÁGUIA EDUCAÇÃO vai de encontro&nbsp; aos nossos valores, compartilha nossa visão, entende nossa missão e desde o princípio de nossa longa parceria sempre se destacou pela agilidade e rapidez em toda cadeia de fornecimento de seus produtos. Não temos dúvida de que todos os produtos do portfólio da ÁGUIA EDUCAÇÃO, desde sua eficiente linha de projetores interativos até seus equipamentos de uso individual (Chromebooks e tablets), apoiam nosso modelo de gerenciamento de serviços de tecnologia.”</p>
-        <p id="u9793-3">&nbsp;</p>
-        <p id="u9793-6"><span id="u9793-4">— </span><span id="u9793-5">Christian Serapiao - Tecnologia da Informação - Escola Mobile</span></p>
-       </div>
-      </div>
-     </div>
-    </div>
-    <div class="clearfix colelem" id="pu8926"><!-- group -->
-     <div class="browser_width grpelem" id="u8926-bw">
-      <div id="u8926"><!-- column -->
-       <div class="clearfix" id="u8926_align_to_page">
-        <div class="clearfix colelem" id="pu8617"><!-- group -->
-         <div class="grpelem" id="u8617"><!-- content --></div>
-         <div class="grpelem" id="u3881"><!-- simple frame --></div>
-         <div class="grpelem" id="u3882"><!-- simple frame --></div>
-         <div class="grpelem" id="u3883"><!-- content --></div>
-         <div class="museBGSize grpelem" id="u3884"><!-- content --></div>
-         <div class="museBGSize grpelem" id="u3886"><!-- content --></div>
-         <div class="museBGSize grpelem" id="s3886"><!-- content --></div>
-         <div class="museBGSize grpelem" id="l3886"><!-- content --></div>
-        </div>
-        <div class="clearfix colelem" id="pu4049-4"><!-- group -->
-         <div class="clearfix grpelem" id="u4049-4"><!-- content -->
-          <p>Vídeo Conferência integrada ao 1460UI</p>
-         </div>
-         <div class="clearfix grpelem" id="u4053-4"><!-- content -->
-          <p>Telefonia IP</p>
-         </div>
-         <div class="clearfix grpelem" id="u4055-4"><!-- content -->
-          <p>Automação de Ambientes</p>
-         </div>
-        </div>
-        <div class="clearfix colelem" id="pu4042"><!-- group -->
-         <div class="museBGSize grpelem" id="u4042"><!-- content --></div>
-         <div class="museBGSize grpelem" id="u4045"><!-- content --></div>
-         <div class="museBGSize grpelem" id="u4047"><!-- content --></div>
-        </div>
-        <div class="clearfix colelem" id="pu4057-6"><!-- group -->
-         <div class="clearfix grpelem" id="u4057-6"><!-- content -->
-          <p id="u4057">&nbsp;</p>
-          <p id="u4057-3">Descubra as vantagens que a videoconferência pode oferecer à sua empresa com uma experiência de reunião face a face, produtiva e em pessoa.</p>
-          <p id="u4057-4">&nbsp;</p>
-         </div>
-         <div class="clearfix grpelem" id="u4060-5"><!-- content -->
-          <p>&nbsp;</p>
-          <p>Reduza custos e aumente a produtividade de sua empresa com as soluções de telefonia ip.</p>
-         </div>
-         <div class="clearfix grpelem" id="u4062-6"><!-- content -->
-          <p id="u4062">&nbsp;</p>
-          <p id="u4062-3">Utilizar salas de reunião, auditórios, anfiteatros e outros espaços destinados à apresentação se tornou um grande desafio. Por isso, sistemas que automatizem todos os equipamentos tornaram suas apresentações mais simples.</p>
-          <p id="u4062-4">&nbsp;</p>
-         </div>
-        </div>
-        <div class="colelem" id="u4064"><!-- simple frame --></div>
-        <div class="colelem" id="u4067"><!-- simple frame --></div>
-        <div class="colelem" id="u4069"><!-- simple frame --></div>
-        <div class="clearfix colelem" id="pu4051-4"><!-- group -->
-         <div class="clearfix grpelem" id="u4051-4"><!-- content -->
-          <p>Salas e Auditórios Multimídia Integrados ao projetor 2255U e L1405</p>
-         </div>
-         <div class="clearfix grpelem" id="u4054-4"><!-- content -->
-          <p>Videowall</p>
-         </div>
-         <div class="clearfix grpelem" id="u4056-4"><!-- content -->
-          <p>Digital Signage</p>
-         </div>
-        </div>
-        <div class="clearfix colelem" id="pu4043"><!-- group -->
-         <div class="museBGSize grpelem" id="u4043"><!-- content --></div>
-         <div class="museBGSize grpelem" id="u4046"><!-- content --></div>
-         <div class="museBGSize grpelem" id="u4048"><!-- content --></div>
-        </div>
-        <div class="clearfix colelem" id="pu4058-6"><!-- group -->
-         <div class="clearfix grpelem" id="u4058-6"><!-- content -->
-          <p id="u4058">&nbsp;</p>
-          <p id="u4058-3">Ter uma sala de reunião ou um auditório com sistemas integrados de áudio, vídeo e dados permitirá múltiplos cenários durante uma apresentação o que fará com que a absorção do que é apresentado alcance maiores resultados.</p>
-          <p id="u4058-4">&nbsp;</p>
-         </div>
-         <div class="clearfix grpelem" id="u4061-6"><!-- content -->
-          <p id="u4061">&nbsp;</p>
-          <p id="u4061-3">A nitidez da imagem se faz necessária nas mais diversas aplicações, por isso a resolução se tornou um ponto crucial. Assim, soluções de videowall garantem a nitidez e resolução da imagem que você precisa.</p>
-          <p id="u4061-4">&nbsp;</p>
-         </div>
-         <div class="clearfix grpelem" id="u4063-5"><!-- content -->
-          <p>&nbsp;</p>
-          <p>A necessidade de informação em tempo real se tornou uma ferramenta de grande importância para a humanidade. Soluções de digital signage permite que instituições se comuniquem de forma rápida e pratica garantindo os seus resultados.</p>
-         </div>
-        </div>
-        <div class="colelem" id="u4065"><!-- simple frame --></div>
-        <div class="colelem" id="u4068"><!-- simple frame --></div>
-        <div class="colelem" id="u4070"><!-- simple frame --></div>
-       </div>
-      </div>
-     </div>
-     <div class="browser_width grpelem" id="u11867-bw">
-      <div id="u11867"><!-- group -->
-       <div class="clearfix" id="u11867_align_to_page">
-        <div class="clearfix grpelem" id="pu3905"><!-- column -->
-         <div class="shadow rounded-corners clearfix colelem" id="u3905"><!-- group -->
-          <div class="clearfix grpelem" id="pu3917-15"><!-- group -->
-           <div class="clearfix grpelem" id="u3917-15"><!-- content -->
-            <p id="u3917-2">695Wi – Projetor Interativo para sala de aula.</p>
-            <p id="u3917-3">&nbsp;</p>
-            <p id="u3917-5">3.500 ansilumens</p>
-            <p id="u3917-7">Autonomia de lâmpada</p>
-            <p id="u3917-10"><span id="u3917-8">10.000/h (modo Eco)</span><span id="u3917-9"></span></p>
-            <p id="u3917-11">&nbsp;</p>
-            <!--p id="u3917-13">Read More</p-->
-           </div>
-           <div class="PamphletWidget clearfix widget_invisible grpelem" id="pamphletu9578" data-islightbox="true"><!-- none box -->
-            <div class="ThumbGroup clearfix grpelem" id="u9590"><!-- none box -->
-             <div class="popup_anchor" id="u9592popup">
-              <div class="Thumb popup_element" id="u9592"><!-- simple frame --></div>
-             </div>
-            </div>
-            <div class="popup_anchor" id="u9583popup" data-lightbox="true">
-             <div class="ContainerGroup rgba-background clearfix" id="u9583"><!-- stack box -->
-              <div class="Container clearfix grpelem" id="u9584"><!-- column -->
-               <div class="rounded-corners clearfix colelem" id="u9642"><!-- group -->
-                <div class="clearfix grpelem" id="u9643-4"><!-- content -->
-                 <p>EPSON</p>
-                </div>
-               </div>
-               <div class="clearfix colelem" id="pu9644-24"><!-- group -->
-                <div class="clearfix grpelem" id="u9644-24"><!-- content -->
-                 <p id="u9644-2">Projetor Epson BrightLink 695Wi+</p>
-                 <p id="u9644-3">&nbsp;</p>
-                 <p id="u9644-5">A Mais Avançada Tecnologia Epson</p>
-                 <p id="u9644-7">em Soluções Interativas de Projeção</p>
-                 <p id="u9644-8">&nbsp;</p>
-                 <p id="u9644-10">• 3.500 ansilumens</p>
-                 <p id="u9644-12">• Autonomia de lâmpada - 10.000/h (modo Eco)</p>
-                 <p id="u9644-14">• Interatividade e colaboratividade</p>
-                 <p id="u9644-16">• Compartilhamento de conteúdos (smartphones e tablets)</p>
-                 <p id="u9644-18">• Registro da aula para disponibilização</p>
-                 <p id="u9644-19">&nbsp;</p>
-                 <p id="u9644-22"><a class="nonblock" href="assets/695wi.pdf">Ver folheto</a></p>
-                </div>
-                <div class="SlideShowWidget clearfix grpelem" id="slideshowu9645"><!-- none box -->
-                 <div class="popup_anchor" data-col-pos="0" id="u9662popup">
-                  <div class="SlideShowContentPanel clearfix" data-col-pos="0" id="u9662"><!-- stack box -->
-                   <div class="SSSlide clip_frame grpelem" data-col-pos="0" id="u9667"><!-- image -->
-                    <img class="block ImageInclude" data-col-pos="0" id="u9667_img" data-src="images/1200wx1200h-14.jpg?crc=53457261" src="images/blank.gif?crc=4208392903" alt="" data-width="400" data-height="267"/>
-                   </div>
-                   <div class="SSSlide invi clip_frame grpelem" data-col-pos="1" id="u9665"><!-- image -->
-                    <img class="block ImageInclude" data-col-pos="1" id="u9665_img" data-src="images/1200wx1200h.jpg?crc=4156831680" src="images/blank.gif?crc=4208392903" alt="" data-width="350" data-height="233"/>
-                   </div>
-                   <div class="SSSlide invi clip_frame grpelem" data-col-pos="2" id="u9663"><!-- image -->
-                    <img class="block ImageInclude" data-col-pos="2" id="u9663_img" data-src="images/1200wx1200h-2.jpg?crc=3812569690" src="images/blank.gif?crc=4208392903" alt="" data-width="350" data-height="233"/>
-                   </div>
-                  </div>
-                 </div>
-                 <div class="popup_anchor" data-col-pos="1" id="u9654popup">
-                  <div class="SSSlideLinks clearfix" data-col-pos="1" id="u9654"><!-- horizontal-rows box -->
-                   <div class="SSSlideLink clip_frame clearfix grpelem" data-col-pos="0" id="u9659"><!-- image -->
-                    <img class="position_content" data-col-pos="0" id="u9659_img" src="images/1200wx1200h-1174x116.jpg?crc=297225376" alt="" width="174" height="116"/>
-                   </div>
-                   <div class="SSSlideLink clip_frame grpelem" data-col-pos="1" id="u9657"><!-- image -->
-                    <img class="block" data-col-pos="1" id="u9657_img" src="images/1200wx1200h%202.png?crc=448615516" alt="" width="126" height="110"/>
-                   </div>
-                   <div class="SSSlideLink clip_frame grpelem" data-col-pos="2" id="u9655"><!-- image -->
-                    <img class="block" data-col-pos="2" id="u9655_img" src="images/1200wx1200h-2%202.png?crc=4261040545" alt="" width="147" height="87"/>
-                   </div>
-                  </div>
-                 </div>
-                </div>
-               </div>
-              </div>
-             </div>
-            </div>
-            <div class="popup_anchor" id="u9579popup">
-             <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" id="u9579"><!-- group -->
-              <div class="clearfix grpelem" id="u9580-4"><!-- content -->
-               <p>x</p>
-              </div>
-             </div>
-            </div>
-           </div>
-          </div>
-          <div class="clearfix grpelem" id="pu8649"><!-- column -->
-           <div class="clearfix colelem" id="u8649"><!-- group -->
-            <div class="rounded-corners clearfix grpelem" id="u8651"><!-- group -->
-             <div class="clearfix grpelem" id="u8650-4"><!-- content -->
-              <p>EPSON</p>
-             </div>
-            </div>
-           </div>
-           <div class="museBGSize colelem" id="u8662"><!-- content --></div>
-          </div>
-         </div>
-         <div class="shadow rounded-corners clearfix colelem" id="u8722"><!-- group -->
-          <div class="rounded-corners clearfix grpelem" id="u8733"><!-- group -->
-           <div class="clearfix grpelem" id="u8732-4"><!-- content -->
-            <p>EPSON</p>
-           </div>
-          </div>
-          <div class="clearfix grpelem" id="u8725-16"><!-- content -->
-           <p id="u8725-2">L1405 – Projetores para grandes auditórios.</p>
-           <p id="u8725-3">&nbsp;</p>
-           <p id="u8725-5">PROJETOR LASER</p>
-           <p id="u8725-7">8.000 ansilumens</p>
-           <p id="u8725-9">Perfeito para auditórios</p>
-           <p id="u8725-11">e salas de reunião</p>
-           <p id="u8725-12">&nbsp;</p>
-           <!--p id="u8725-14">Read More</p-->
-          </div>
-          <div class="museBGSize grpelem" id="u8728"><!-- content --></div>
-          <div class="PamphletWidget clearfix widget_invisible grpelem" id="pamphletu10120" data-islightbox="true"><!-- none box -->
-           <div class="ThumbGroup clearfix grpelem" id="u10156"><!-- none box -->
-            <div class="popup_anchor" id="u10157popup">
-             <div class="Thumb popup_element" id="u10157"><!-- simple frame --></div>
-            </div>
-           </div>
-           <div class="popup_anchor" id="u10121popup" data-lightbox="true">
-            <div class="ContainerGroup rgba-background clearfix" id="u10121"><!-- stack box -->
-             <div class="Container clearfix grpelem" id="u10122"><!-- column -->
-              <div class="rounded-corners clearfix colelem" id="u10151"><!-- group -->
-               <div class="clearfix grpelem" id="u10150-4"><!-- content -->
-                <p>EPSON</p>
-               </div>
-              </div>
-              <div class="clearfix colelem" id="pu10149-25"><!-- group -->
-               <div class="clearfix grpelem" id="u10149-25"><!-- content -->
-                <p id="u10149-2">Projetor Pro L1405U</p>
-                <p id="u10149-3">&nbsp;</p>
-                <p id="u10149-5">A Mais Avançada Tecnologia Epson</p>
-                <p id="u10149-7">em Soluções Interativas de Projeção</p>
-                <p id="u10149-8">&nbsp;</p>
-                <p id="u10149-10">• 8.000 ansilumens</p>
-                <p id="u10149-12">• PROJETOR LASER</p>
-                <p id="u10149-14">• Perfeito para auditórios e salas de reunião</p>
-                <p id="u10149-16">• Qualidade de imagem excepcional</p>
-                <p id="u10149-18">• Até 20 mil horas de operação livre sem manutenção</p>
-                <p id="u10149-19">&nbsp;</p>
-                <p id="u10149-20">&nbsp;</p>
-                <p id="u10149-23"><a class="nonblock" href="assets/l1405.pdf">Ver folheto</a></p>
-               </div>
-               <div class="SlideShowWidget clearfix grpelem" id="slideshowu10123"><!-- none box -->
-                <div class="popup_anchor" data-col-pos="0" id="u10131popup">
-                 <div class="SlideShowContentPanel clearfix" data-col-pos="0" id="u10131"><!-- stack box -->
-                  <div class="SSSlide clip_frame grpelem" data-col-pos="0" id="u10132"><!-- image -->
-                   <img class="block ImageInclude" data-col-pos="0" id="u10132_img" data-src="images/1200wx1200h-13.jpg?crc=4059196957" src="images/blank.gif?crc=4208392903" alt="" data-width="400" data-height="267"/>
-                  </div>
-                  <div class="SSSlide invi clip_frame grpelem" data-col-pos="1" id="u10134"><!-- image -->
-                   <img class="block ImageInclude" data-col-pos="1" id="u10134_img" data-src="images/1200wx1200h-6.jpg?crc=3989127644" src="images/blank.gif?crc=4208392903" alt="" data-width="350" data-height="233"/>
-                  </div>
-                  <div class="SSSlide invi clip_frame grpelem" data-col-pos="2" id="u10136"><!-- image -->
-                   <img class="block ImageInclude" data-col-pos="2" id="u10136_img" data-src="images/1200wx1200h-7.jpg?crc=276510365" src="images/blank.gif?crc=4208392903" alt="" data-width="405" data-height="270"/>
-                  </div>
-                 </div>
-                </div>
-                <div class="popup_anchor" data-col-pos="1" id="u10124popup">
-                 <div class="SSSlideLinks clearfix" data-col-pos="1" id="u10124"><!-- horizontal-rows box -->
-                  <div class="SSSlideLink clip_frame grpelem" data-col-pos="0" id="u10127"><!-- image -->
-                   <img class="block" data-col-pos="0" id="u10127_img" src="images/1200wx1200h-1174x1162.jpg?crc=6896107" alt="" width="174" height="116"/>
-                  </div>
-                  <div class="SSSlideLink clip_frame grpelem" data-col-pos="1" id="u10129"><!-- image -->
-                   <img class="block" data-col-pos="1" id="u10129_img" src="images/1200wx1200h-6.jpg?crc=3989127644" alt="" width="150" height="100"/>
-                  </div>
-                  <div class="SSSlideLink clip_frame grpelem" data-col-pos="2" id="u10125"><!-- image -->
-                   <img class="block" data-col-pos="2" id="u10125_img" src="images/1200wx1200h-7180x120.jpg?crc=221660406" alt="" width="180" height="120"/>
-                  </div>
-                 </div>
-                </div>
-               </div>
-              </div>
-             </div>
-            </div>
-           </div>
-           <div class="popup_anchor" id="u10154popup">
-            <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" id="u10154"><!-- group -->
-             <div class="clearfix grpelem" id="u10155-4"><!-- content -->
-              <p>x</p>
-             </div>
-            </div>
-           </div>
-          </div>
-         </div>
-         <div class="shadow rounded-corners clearfix colelem" id="u10461"><!-- group -->
-          <div class="rounded-corners clearfix grpelem" id="u10464"><!-- group -->
-           <div class="clearfix grpelem" id="u10467-4"><!-- content -->
-            <p>CHROMEBOOK</p>
-           </div>
-          </div>
-          <div class="museBGSize grpelem" id="u10458"><!-- content --></div>
-          <div class="clearfix grpelem" id="u10470-14"><!-- content -->
-           <p id="u10470-2">Chromebook Multilaser. O mais vendido do mercado público/governo.</p>
-           <p id="u10470-3">&nbsp;</p>
-           <p id="u10470-5">Um computador</p>
-           <p id="u10470-7">rápido e pronto</p>
-           <p id="u10470-9">para usar.</p>
-           <p id="u10470-10">&nbsp;</p>
-           <!--p id="u10470-12">Read More</p-->
-          </div>
-          <div class="PamphletWidget clearfix widget_invisible grpelem" id="pamphletu10630" data-islightbox="true"><!-- none box -->
-           <div class="ThumbGroup clearfix grpelem" id="u10632"><!-- none box -->
-            <div class="popup_anchor" id="u10633popup">
-             <div class="Thumb popup_element" id="u10633"><!-- simple frame --></div>
-            </div>
-           </div>
-           <div class="popup_anchor" id="u10635popup" data-lightbox="true">
-            <div class="ContainerGroup rgba-background clearfix" id="u10635"><!-- stack box -->
-             <div class="Container clearfix grpelem" id="u10636"><!-- column -->
-              <div class="rounded-corners clearfix colelem" id="u10660"><!-- group -->
-               <div class="clearfix grpelem" id="u10637-4"><!-- content -->
-                <p>CHROMEBOOK</p>
-               </div>
-              </div>
-              <div class="clearfix colelem" id="pu10638-7"><!-- group -->
-               <div class="clearfix grpelem" id="u10638-7"><!-- content -->
-                <p id="u10638-2">ChromeBook Multilaser</p>
-                <p id="u10638-3">&nbsp;</p>
-                <p id="u10638-5">Optar por um Chromebook é ter sempre à mão um computador rápido e pronto para usar. Portátil, sempre atualizado, protegido contra vírus e com arquivos guardados de forma segura na nuvem. O Sistema Operacional Google Chrome se atualiza automaticamente sempre que necessário.</p>
-               </div>
-               <div class="SlideShowWidget clearfix grpelem" id="slideshowu10639"><!-- none box -->
-                <div class="popup_anchor" data-col-pos="0" id="u10644popup">
-                 <div class="SlideShowContentPanel clearfix" data-col-pos="0" id="u10644"><!-- stack box -->
-                  <div class="SSSlide clip_frame grpelem" data-col-pos="0" id="u10645"><!-- image -->
-                   <img class="block ImageInclude" data-col-pos="0" id="u10645_img" data-src="images/nb257_02.jpg?crc=4054260393" src="images/blank.gif?crc=4208392903" alt="" data-width="400" data-height="237"/>
-                  </div>
-                  <div class="SSSlide invi clip_frame clearfix grpelem" data-col-pos="1" id="u10647"><!-- image -->
-                   <img class="ImageInclude position_content" data-col-pos="1" id="u10647_img" data-src="images/nb257_01.jpg?crc=742704" src="images/blank.gif?crc=4208392903" alt="" data-width="330" data-height="330"/>
-                  </div>
-                 </div>
-                </div>
-                <div class="popup_anchor" data-col-pos="1" id="u10654popup">
-                 <div class="SSSlideLinks clearfix" data-col-pos="1" id="u10654"><!-- horizontal-rows box -->
-                  <div class="SSSlideLink clip_frame grpelem" data-col-pos="0" id="u10655"><!-- image -->
-                   <img class="block" data-col-pos="0" id="u10655_img" src="images/nb257_02.jpg?crc=4054260393" alt="" width="159" height="94"/>
-                  </div>
-                  <div class="SSSlideLink clip_frame clearfix grpelem" data-col-pos="1" id="u10657"><!-- image -->
-                   <img class="position_content" data-col-pos="1" id="u10657_img" src="images/nb257_01152x152.jpg?crc=17631698" alt="" width="152" height="152"/>
-                  </div>
-                 </div>
-                </div>
-               </div>
-              </div>
-             </div>
-            </div>
-           </div>
-           <div class="popup_anchor" id="u10661popup">
-            <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" id="u10661"><!-- group -->
-             <div class="clearfix grpelem" id="u10662-4"><!-- content -->
-              <p>x</p>
-             </div>
-            </div>
-           </div>
-          </div>
-         </div>
-         <div class="shadow rounded-corners clearfix colelem" id="u11028"><!-- group -->
-          <div class="clearfix grpelem" id="u11040-19"><!-- content -->
-           <p id="u11040-2">Serviços de instalação</p>
-           <p id="u11040-3">&nbsp;</p>
-           <p id="u11040-5">• Projetores interativos, convencionais e alto brilho.</p>
-           <p id="u11040-7">• Móveis convencionais e com design personalizado.</p>
-           <p id="u11040-9">• Projeto e implantação de redes (Microsoft, Google ou Apple).</p>
-           <p id="u11040-11">• Projeto completo de audiovisual para salas de aula e auditórios.</p>
-           <p id="u11040-13">• Projeto de reforma de ambientes (arquitetura e engenharia).</p>
-           <p id="u11040-15">• Integração entre tecnologia e ambientes.</p>
-           <!--p id="u11040-17">Read More</p-->
-          </div>
-          <div class="PamphletWidget clearfix widget_invisible grpelem" id="pamphletu11268" data-islightbox="true"><!-- none box -->
-           <div class="ThumbGroup clearfix grpelem" id="u11271"><!-- none box -->
-            <div class="popup_anchor" id="u11272popup">
-             <div class="Thumb popup_element" id="u11272"><!-- simple frame --></div>
-            </div>
-           </div>
-           <div class="popup_anchor" id="u11274popup" data-lightbox="true">
-            <div class="ContainerGroup rgba-background clearfix" id="u11274"><!-- stack box -->
-             <div class="Container clearfix grpelem" id="u11275"><!-- column -->
-              <div class="rounded-corners clearfix colelem" id="u11277"><!-- group -->
-               <div class="clearfix grpelem" id="u11276-4"><!-- content -->
-                <p>SERVIÇOS</p>
-               </div>
-              </div>
-              <div class="clearfix colelem" id="pslideshowu11278"><!-- group -->
-               <div class="SlideShowWidget clearfix grpelem" id="slideshowu11278"><!-- none box -->
-                <div class="popup_anchor" data-col-pos="0" id="u11279popup">
-                 <div class="SlideShowContentPanel clearfix" data-col-pos="0" id="u11279"><!-- stack box -->
-                  <div class="SSSlide clip_frame grpelem" data-col-pos="0" id="u11284"><!-- image -->
-                   <img class="block ImageInclude" data-col-pos="0" id="u11284_img" data-src="images/1.jpg?crc=3938869590" src="images/blank.gif?crc=4208392903" alt="" data-width="411" data-height="308"/>
-                  </div>
-                  <div class="SSSlide invi clip_frame grpelem" data-col-pos="1" id="u11456"><!-- image -->
-                   <img class="block ImageInclude" data-col-pos="1" id="u11456_img" data-src="images/2.jpg?crc=405186545" src="images/blank.gif?crc=4208392903" alt="" data-width="410" data-height="308"/>
-                  </div>
-                  <div class="SSSlide invi clip_frame grpelem" data-col-pos="2" id="u11476"><!-- image -->
-                   <img class="block ImageInclude" data-col-pos="2" id="u11476_img" data-src="images/3.jpg?crc=319211002" src="images/blank.gif?crc=4208392903" alt="" data-width="410" data-height="308"/>
-                  </div>
-                  <div class="SSSlide invi clip_frame grpelem" data-col-pos="3" id="u11496"><!-- image -->
-                   <img class="block ImageInclude" data-col-pos="3" id="u11496_img" data-src="images/4.jpg?crc=3897338697" src="images/blank.gif?crc=4208392903" alt="" data-width="411" data-height="308"/>
-                  </div>
-                  <div class="SSSlide invi clip_frame grpelem" data-col-pos="4" id="u11516"><!-- image -->
-                   <img class="block ImageInclude" data-col-pos="4" id="u11516_img" data-src="images/5.jpg?crc=3854857332" src="images/blank.gif?crc=4208392903" alt="" data-width="411" data-height="308"/>
-                  </div>
-                  <div class="SSSlide invi clip_frame grpelem" data-col-pos="5" id="u11536"><!-- image -->
-                   <img class="block ImageInclude" data-col-pos="5" id="u11536_img" data-src="images/6.jpg?crc=4285707441" src="images/blank.gif?crc=4208392903" alt="" data-width="411" data-height="308"/>
-                  </div>
-                  <div class="SSSlide invi clip_frame grpelem" data-col-pos="6" id="u11556"><!-- image -->
-                   <img class="block ImageInclude" data-col-pos="6" id="u11556_img" data-src="images/7.jpg?crc=4204850527" src="images/blank.gif?crc=4208392903" alt="" data-width="411" data-height="308"/>
-                  </div>
-                  <div class="SSSlide invi clip_frame grpelem" data-col-pos="7" id="u11576"><!-- image -->
-                   <img class="block ImageInclude" data-col-pos="7" id="u11576_img" data-src="images/8.jpg?crc=472261690" src="images/blank.gif?crc=4208392903" alt="" data-width="411" data-height="308"/>
-                  </div>
-                  <div class="SSSlide invi clip_frame grpelem" data-col-pos="8" id="u11596"><!-- image -->
-                   <img class="block ImageInclude" data-col-pos="8" id="u11596_img" data-src="images/9.jpg?crc=473746840" src="images/blank.gif?crc=4208392903" alt="" data-width="411" data-height="308"/>
-                  </div>
-                 </div>
-                </div>
-                <div class="popup_anchor" data-col-pos="1" id="u11297popup">
-                 <div class="SSSlideLinks clearfix" data-col-pos="1" id="u11297"><!-- horizontal-rows box -->
-                  <div class="SSSlideLink clip_frame grpelem" data-col-pos="0" id="u11298"><!-- image -->
-                   <img class="block" data-col-pos="0" id="u11298_img" src="images/172x54.jpg?crc=473553590" alt="" width="71" height="53"/>
-                  </div>
-                  <div class="SSSlideLink clip_frame grpelem" data-col-pos="1" id="u11462"><!-- image -->
-                   <img class="block" data-col-pos="1" id="u11462_img" src="images/272x54.jpg?crc=4179385450" alt="" width="71" height="53"/>
-                  </div>
-                  <div class="SSSlideLink clip_frame grpelem" data-col-pos="2" id="u11482"><!-- image -->
-                   <img class="block" data-col-pos="2" id="u11482_img" src="images/372x54.jpg?crc=3963459369" alt="" width="71" height="53"/>
-                  </div>
-                  <div class="SSSlideLink clip_frame grpelem" data-col-pos="3" id="u11502"><!-- image -->
-                   <img class="block" data-col-pos="3" id="u11502_img" src="images/472x54.jpg?crc=4205623963" alt="" width="71" height="53"/>
-                  </div>
-                  <div class="SSSlideLink clip_frame grpelem" data-col-pos="4" id="u11522"><!-- image -->
-                   <img class="block" data-col-pos="4" id="u11522_img" src="images/572x54.jpg?crc=4022344076" alt="" width="71" height="53"/>
-                  </div>
-                  <div class="SSSlideLink clip_frame grpelem" data-col-pos="5" id="u11542"><!-- image -->
-                   <img class="block" data-col-pos="5" id="u11542_img" src="images/672x54.jpg?crc=175811349" alt="" width="71" height="53"/>
-                  </div>
-                  <div class="SSSlideLink clip_frame grpelem" data-col-pos="6" id="u11562"><!-- image -->
-                   <img class="block" data-col-pos="6" id="u11562_img" src="images/772x54.jpg?crc=4212111230" alt="" width="71" height="53"/>
-                  </div>
-                  <div class="SSSlideLink clip_frame grpelem" data-col-pos="7" id="u11582"><!-- image -->
-                   <img class="block" data-col-pos="7" id="u11582_img" src="images/872x54.jpg?crc=522757564" alt="" width="71" height="53"/>
-                  </div>
-                  <div class="SSSlideLink clip_frame grpelem" data-col-pos="8" id="u11602"><!-- image -->
-                   <img class="block" data-col-pos="8" id="u11602_img" src="images/972x54.jpg?crc=383620343" alt="" width="71" height="53"/>
-                  </div>
-                 </div>
-                </div>
-               </div>
-               <div class="clearfix grpelem" id="u11662-23"><!-- content -->
-                <p id="u11662-2">Serviços de instalação</p>
-                <p id="u11662-3">&nbsp;</p>
-                <p id="u11662-6"><span id="u11662-4">• </span><span id="u11662-5">Projetores interativos, convencionais e alto brilho.</span></p>
-                <p id="u11662-9"><span id="u11662-7">• </span><span id="u11662-8">Móveis convencionais e com design personalizado.</span></p>
-                <p id="u11662-12"><span id="u11662-10">• </span><span id="u11662-11">Projeto e implantação de redes (Microsoft, Google ou Apple).</span></p>
-                <p id="u11662-15"><span id="u11662-13">• </span><span id="u11662-14">Projeto completo de audiovisual para salas de aula e auditórios.</span></p>
-                <p id="u11662-18"><span id="u11662-16">• </span><span id="u11662-17">Projeto de reforma de ambientes (arquitetura e engenharia).</span></p>
-                <p id="u11662-21"><span id="u11662-19">• </span><span id="u11662-20">Integração entre tecnologia e ambientes.</span></p>
-               </div>
-              </div>
-             </div>
-            </div>
-           </div>
-           <div class="popup_anchor" id="u11269popup">
-            <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" id="u11269"><!-- group -->
-             <div class="clearfix grpelem" id="u11270-4"><!-- content -->
-              <p>x</p>
-             </div>
-            </div>
-           </div>
-          </div>
-          <div class="rounded-corners clearfix grpelem" id="u11037"><!-- group -->
-           <div class="clearfix grpelem" id="u11034-4"><!-- content -->
-            <p>SERVIÇOS</p>
-           </div>
-          </div>
-         </div>
-        </div>
-        <div class="clearfix grpelem" id="pu8672"><!-- column -->
-         <div class="shadow rounded-corners clearfix colelem" id="u8672"><!-- group -->
-          <div class="clearfix grpelem" id="pu8675-14"><!-- group -->
-           <div class="clearfix grpelem" id="u8675-14"><!-- content -->
-            <p id="u8675-2">1460Ui – Projetor Interativo para sala de reuniões. Colaboração com outros locais e filiais.</p>
-            <p id="u8675-4">4.400&nbsp; ansilumens</p>
-            <p id="u8675-6">FULL HD, o projetor</p>
-            <p id="u8675-8">interativo para sua</p>
-            <p id="u8675-10">Empresa</p>
-            <!--p id="u8675-12">Read More</p-->
-           </div>
-           <div class="PamphletWidget clearfix widget_invisible grpelem" id="pamphletu9799" data-islightbox="true"><!-- none box -->
-            <div class="ThumbGroup clearfix grpelem" id="u9800"><!-- none box -->
-             <div class="popup_anchor" id="u9801popup">
-              <div class="Thumb popup_element" id="u9801"><!-- simple frame --></div>
-             </div>
-            </div>
-            <div class="popup_anchor" id="u9805popup" data-lightbox="true">
-             <div class="ContainerGroup rgba-background clearfix" id="u9805"><!-- stack box -->
-              <div class="Container clearfix grpelem" id="u9806"><!-- column -->
-               <div class="rounded-corners clearfix colelem" id="u9807"><!-- group -->
-                <div class="clearfix grpelem" id="u9809-4"><!-- content -->
-                 <p>EPSON</p>
-                </div>
-               </div>
-               <div class="clearfix colelem" id="pu9808-24"><!-- group -->
-                <div class="clearfix grpelem" id="u9808-24"><!-- content -->
-                 <p id="u9808-2">Epson BrightLink Pro 1460Ui</p>
-                 <p id="u9808-3">&nbsp;</p>
-                 <p id="u9808-5">A Mais Avançada Tecnologia Epson</p>
-                 <p id="u9808-7">em Soluções Interativas de Projeção</p>
-                 <p id="u9808-8">&nbsp;</p>
-                 <p id="u9808-10">• 4.400 ansilumens</p>
-                 <p id="u9808-12">• FULL HD, o projetor interativo para sua sala de reunião&nbsp;&nbsp; ou treinamento</p>
-                 <p id="u9808-14">• Interatividade e colaboratividade</p>
-                 <p id="u9808-16">• Compartilhamento de conteúdos (smartphones e tablets)</p>
-                 <p id="u9808-18">• Registro de reunião para disponibilização</p>
-                 <p id="u9808-19">&nbsp;</p>
-                 <p id="u9808-22"><a class="nonblock" href="assets/1460ui.pdf">Ver folheto</a></p>
-                </div>
-                <div class="SlideShowWidget clearfix grpelem" id="slideshowu9810"><!-- none box -->
-                 <div class="popup_anchor" data-col-pos="0" id="u9814popup">
-                  <div class="SlideShowContentPanel clearfix" data-col-pos="0" id="u9814"><!-- stack box -->
-                   <div class="SSSlide clip_frame grpelem" data-col-pos="0" id="u9815"><!-- image -->
-                    <img class="block ImageInclude" data-col-pos="0" id="u9815_img" data-src="images/1200wx1200h-1.jpg?crc=398336006" src="images/blank.gif?crc=4208392903" alt="" data-width="400" data-height="267"/>
-                   </div>
-                   <div class="SSSlide invi clip_frame grpelem" data-col-pos="1" id="u9817"><!-- image -->
-                    <img class="block ImageInclude" data-col-pos="1" id="u9817_img" data-src="images/1200wx1200h-22.jpg?crc=243322380" src="images/blank.gif?crc=4208392903" alt="" data-width="350" data-height="233"/>
-                   </div>
-                   <div class="SSSlide invi clip_frame grpelem" data-col-pos="2" id="u9819"><!-- image -->
-                    <img class="block ImageInclude" data-col-pos="2" id="u9819_img" data-src="images/1200wx1200h-3.jpg?crc=3819476236" src="images/blank.gif?crc=4208392903" alt="" data-width="405" data-height="270"/>
-                   </div>
-                  </div>
-                 </div>
-                 <div class="popup_anchor" data-col-pos="1" id="u9829popup">
-                  <div class="SSSlideLinks clearfix" data-col-pos="1" id="u9829"><!-- horizontal-rows box -->
-                   <div class="SSSlideLink clip_frame clearfix grpelem" data-col-pos="0" id="u9830"><!-- image -->
-                    <img class="position_content" data-col-pos="0" id="u9830_img" src="images/1200wx1200h-1205x137.jpg?crc=4049817993" alt="" width="205" height="136"/>
-                   </div>
-                   <div class="SSSlideLink clip_frame grpelem" data-col-pos="1" id="u9834"><!-- image -->
-                    <img class="block" data-col-pos="1" id="u9834_img" src="images/1200wx1200h-22.jpg?crc=243322380" alt="" width="148" height="99"/>
-                   </div>
-                   <div class="SSSlideLink clip_frame grpelem" data-col-pos="2" id="u9832"><!-- image -->
-                    <img class="block" data-col-pos="2" id="u9832_img" src="images/1200wx1200h-3154x103.jpg?crc=3938908972" alt="" width="153" height="102"/>
-                   </div>
-                  </div>
-                 </div>
-                </div>
-               </div>
-              </div>
-             </div>
-            </div>
-            <div class="popup_anchor" id="u9802popup">
-             <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" id="u9802"><!-- group -->
-              <div class="clearfix grpelem" id="u9803-4"><!-- content -->
-               <p>x</p>
-              </div>
-             </div>
-            </div>
-           </div>
-          </div>
-          <div class="clearfix grpelem" id="pu8681"><!-- column -->
-           <div class="clearfix colelem" id="u8681"><!-- group -->
-            <div class="rounded-corners clearfix grpelem" id="u8683"><!-- group -->
-             <div class="clearfix grpelem" id="u8682-4"><!-- content -->
-              <p>EPSON</p>
-             </div>
-            </div>
-           </div>
-           <div class="museBGSize colelem" id="u8678"><!-- content --></div>
-          </div>
-         </div>
-         <div class="shadow rounded-corners clearfix colelem" id="u12340"><!-- group -->
-          <div class="rounded-corners clearfix grpelem" id="u12211"><!-- group -->
-           <div class="clearfix grpelem" id="u12208-4"><!-- content -->
-            <p>EPSON</p>
-           </div>
-          </div>
-          <div class="clearfix grpelem" id="u12217-15"><!-- content -->
-           <p id="u12217-2">BrightLink 710Ui – Projetor interativo laser.</p>
-           <p id="u12217-3">&nbsp;</p>
-           <p id="u12217-5">PROJETOR LASER</p>
-           <p id="u12217-7">4.000 ansilumens</p>
-           <p id="u12217-9">Perfeito para salas de aula</p>
-           <p id="u12217-10">&nbsp;</p>
-           <p id="u12217-11">&nbsp;</p>
-           <!--p id="u12217-13">Read More</p-->
-          </div>
-          <div class="museBGSize grpelem" id="u12214"><!-- content --></div>
-          <div class="PamphletWidget clearfix widget_invisible grpelem" id="pamphletu12220" data-islightbox="true"><!-- none box -->
-           <div class="ThumbGroup clearfix grpelem" id="u12254"><!-- none box -->
-            <div class="popup_anchor" id="u12255popup">
-             <div class="Thumb popup_element" id="u12255"><!-- simple frame --></div>
-            </div>
-           </div>
-           <div class="popup_anchor" id="u12223popup" data-lightbox="true">
-            <div class="ContainerGroup rgba-background clearfix" id="u12223"><!-- stack box -->
-             <div class="Container clearfix grpelem" id="u12224"><!-- column -->
-              <div class="rounded-corners clearfix colelem" id="u12253"><!-- group -->
-               <div class="clearfix grpelem" id="u12252-4"><!-- content -->
-                <p>EPSON</p>
-               </div>
-              </div>
-              <div class="clearfix colelem" id="pu12225-21"><!-- group -->
-               <div class="clearfix grpelem" id="u12225-21"><!-- content -->
-                <p id="u12225-2">BrightLink 710Ui – Projetor interativo laser.</p>
-                <p id="u12225-3">&nbsp;</p>
-                <p id="u12225-5">A Mais Avançada Tecnologia Epson</p>
-                <p id="u12225-7">em Soluções Interativas de Projeção</p>
-                <p id="u12225-8">&nbsp;</p>
-                <p id="u12225-10">• 4.000 ansilumens</p>
-                <p id="u12225-12">• PROJETOR LASER</p>
-                <p id="u12225-14">• Perfeito para salas de aula</p>
-                <p id="u12225-15">&nbsp;</p>
-                <p id="u12225-16">&nbsp;</p>
-                <p id="u12225-19"><a class="nonblock" href="assets/bl710u.pdf">Ver folheto</a></p>
-               </div>
-               <div class="SlideShowWidget clearfix grpelem" id="slideshowu12226"><!-- none box -->
-                <div class="popup_anchor" data-col-pos="0" id="u12229popup">
-                 <div class="SlideShowContentPanel clearfix" data-col-pos="0" id="u12229"><!-- stack box -->
-                  <div class="SSSlide clip_frame grpelem" data-col-pos="0" id="u12232"><!-- image -->
-                   <img class="block ImageInclude" data-col-pos="0" id="u12232_img" data-src="images/bl710ui_hero_690x460.jpg?crc=4009371950" src="images/blank.gif?crc=4208392903" alt="" data-width="400" data-height="267"/>
-                  </div>
-                  <div class="SSSlide invi clip_frame grpelem" data-col-pos="1" id="u12230"><!-- image -->
-                   <img class="block ImageInclude" data-col-pos="1" id="u12230_img" data-src="images/bl710ui_back-panel_690x460.jpg?crc=4166587488" src="images/blank.gif?crc=4208392903" alt="" data-width="350" data-height="233"/>
-                  </div>
-                  <div class="SSSlide invi clip_frame grpelem" data-col-pos="2" id="u12234"><!-- image -->
-                   <img class="block ImageInclude" data-col-pos="2" id="u12234_img" data-src="images/bl710ui_hero-left_690x460.jpg?crc=157444665" src="images/blank.gif?crc=4208392903" alt="" data-width="405" data-height="270"/>
-                  </div>
-                 </div>
-                </div>
-                <div class="popup_anchor" data-col-pos="1" id="u12236popup">
-                 <div class="SSSlideLinks clearfix" data-col-pos="1" id="u12236"><!-- horizontal-rows box -->
-                  <div class="SSSlideLink clip_frame grpelem" data-col-pos="0" id="u12239"><!-- image -->
-                   <img class="block" data-col-pos="0" id="u12239_img" src="images/bl710ui_hero_690x460174x116.jpg?crc=400709104" alt="" width="174" height="116"/>
-                  </div>
-                  <div class="SSSlideLink clip_frame grpelem" data-col-pos="1" id="u12237"><!-- image -->
-                   <img class="block" data-col-pos="1" id="u12237_img" src="images/bl710ui_back-panel_690x460.jpg?crc=4166587488" alt="" width="150" height="100"/>
-                  </div>
-                  <div class="SSSlideLink clip_frame grpelem" data-col-pos="2" id="u12241"><!-- image -->
-                   <img class="block" data-col-pos="2" id="u12241_img" src="images/bl710ui_hero-left_690x460180x120.jpg?crc=3989633289" alt="" width="180" height="120"/>
-                  </div>
-                 </div>
-                </div>
-               </div>
-              </div>
-             </div>
-            </div>
-           </div>
-           <div class="popup_anchor" id="u12256popup">
-            <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" id="u12256"><!-- group -->
-             <div class="clearfix grpelem" id="u12257-4"><!-- content -->
-              <p>x</p>
-             </div>
-            </div>
-           </div>
-          </div>
-         </div>
-         <div class="shadow rounded-corners clearfix colelem" id="u10615"><!-- group -->
-          <div class="rounded-corners clearfix grpelem" id="u10618"><!-- group -->
-           <div class="clearfix grpelem" id="u10621-4"><!-- content -->
-            <p>CHROMEBOOK</p>
-           </div>
-          </div>
-          <div class="museBGSize grpelem" id="u10624"><!-- content --></div>
-          <div class="clearfix grpelem" id="u10627-14"><!-- content -->
-           <p id="u10627-2">Chromebook r11 Acer. Também indicado para mercado privado.</p>
-           <p id="u10627-3">&nbsp;</p>
-           <p id="u10627-5">Um computador</p>
-           <p id="u10627-7">rápido e pronto</p>
-           <p id="u10627-9">para usar.</p>
-           <p id="u10627-10">&nbsp;</p>
-           <!--p id="u10627-12">Read More</p-->
-          </div>
-          <div class="PamphletWidget clearfix widget_invisible grpelem" id="pamphletu10869" data-islightbox="true"><!-- none box -->
-           <div class="ThumbGroup clearfix grpelem" id="u10870"><!-- none box -->
-            <div class="popup_anchor" id="u10871popup">
-             <div class="Thumb popup_element" id="u10871"><!-- simple frame --></div>
-            </div>
-           </div>
-           <div class="popup_anchor" id="u10876popup" data-lightbox="true">
-            <div class="ContainerGroup rgba-background clearfix" id="u10876"><!-- stack box -->
-             <div class="Container clearfix grpelem" id="u10877"><!-- column -->
-              <div class="rounded-corners clearfix colelem" id="u10878"><!-- group -->
-               <div class="clearfix grpelem" id="u10906-4"><!-- content -->
-                <p>CHROMEBOOK</p>
-               </div>
-              </div>
-              <div class="clearfix colelem" id="pu10905-7"><!-- group -->
-               <div class="clearfix grpelem" id="u10905-7"><!-- content -->
-                <p id="u10905-2">ChromeBook Acer</p>
-                <p id="u10905-3">&nbsp;</p>
-                <p id="u10905-5">Optar por um Chromebook é ter sempre à mão um computador rápido e pronto para usar. Portátil, sempre atualizado, protegido contra vírus e com arquivos guardados de forma segura na nuvem. O Sistema Operacional Google Chrome se atualiza automaticamente sempre que necessário.</p>
-               </div>
-               <div class="SlideShowWidget clearfix grpelem" id="slideshowu10879"><!-- none box -->
-                <div class="popup_anchor" data-col-pos="0" id="u10897popup">
-                 <div class="SlideShowContentPanel clearfix" data-col-pos="0" id="u10897"><!-- stack box -->
-                  <div class="SSSlide clip_frame grpelem" data-col-pos="0" id="u10898"><!-- image -->
-                   <img class="block ImageInclude" data-col-pos="0" id="u10898_img" data-src="images/acer-chromebook-11-n7_white_gallery_02_1.png?crc=139905656" src="images/blank.gif?crc=4208392903" alt="" data-width="379" data-height="300"/>
-                  </div>
-                  <div class="SSSlide invi clip_frame clearfix grpelem" data-col-pos="1" id="u10902"><!-- image -->
-                   <img class="ImageInclude position_content" data-col-pos="1" id="u10902_img" data-src="images/chromebook_11_n7_white_main_1.png?crc=492235176" src="images/blank.gif?crc=4208392903" alt="" data-width="370" data-height="370"/>
-                  </div>
-                  <div class="SSSlide invi clip_frame grpelem" data-col-pos="2" id="u10900"><!-- image -->
-                   <img class="block ImageInclude" data-col-pos="2" id="u10900_img" data-src="images/acer-chromebook-11-n7_white_gallery_04_1.png?crc=4159259491" src="images/blank.gif?crc=4208392903" alt="" data-width="379" data-height="300"/>
-                  </div>
-                 </div>
-                </div>
-                <div class="popup_anchor" data-col-pos="1" id="u10886popup">
-                 <div class="SSSlideLinks clearfix" data-col-pos="1" id="u10886"><!-- horizontal-rows box -->
-                  <div class="SSSlideLink clip_frame clearfix grpelem" data-col-pos="0" id="u10887"><!-- image -->
-                   <img class="position_content" data-col-pos="0" id="u10887_img" src="images/acer-chromebook-11-n7_white_gallery_02_1165x130.png?crc=308779641" alt="" width="164" height="130"/>
-                  </div>
-                  <div class="SSSlideLink clip_frame clearfix grpelem" data-col-pos="1" id="u10891"><!-- image -->
-                   <img class="position_content" data-col-pos="1" id="u10891_img" src="images/chromebook_11_n7_white_main_1150x150.png?crc=375855498" alt="" width="150" height="150"/>
-                  </div>
-                  <div class="SSSlideLink clip_frame grpelem" data-col-pos="2" id="u10889"><!-- image -->
-                   <img class="block" data-col-pos="2" id="u10889_img" src="images/acer-chromebook-11-n7_white_gallery_04_1152x120.png?crc=65012138" alt="" width="152" height="120"/>
-                  </div>
-                 </div>
-                </div>
-               </div>
-              </div>
-             </div>
-            </div>
-           </div>
-           <div class="popup_anchor" id="u10873popup">
-            <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" id="u10873"><!-- group -->
-             <div class="clearfix grpelem" id="u10874-4"><!-- content -->
-              <p>x</p>
-             </div>
-            </div>
-           </div>
-          </div>
-         </div>
-        </div>
-        <div class="clearfix grpelem" id="pu8690"><!-- column -->
-         <div class="shadow rounded-corners clearfix colelem" id="u8690"><!-- group -->
-          <div class="clearfix grpelem" id="u8699"><!-- group -->
-           <div class="rounded-corners clearfix grpelem" id="u8700"><!-- group -->
-            <div class="clearfix grpelem" id="u8701-4"><!-- content -->
-             <p>EPSON</p>
-            </div>
-           </div>
-          </div>
-          <div class="clearfix grpelem" id="u8693-14"><!-- content -->
-           <p id="u8693-2">2255U – Projetores para salas de aulas e mini-auditórios.</p>
-           <p id="u8693-3">&nbsp;</p>
-           <p id="u8693-5">5.000 ansilumens</p>
-           <p id="u8693-7">FULL HD</p>
-           <p id="u8693-9">Ideal para universidade</p>
-           <p id="u8693-10">&nbsp;</p>
-           <!--p id="u8693-12">Read More</p-->
-          </div>
-          <div class="museBGSize grpelem" id="u8696"><!-- content --></div>
-          <div class="PamphletWidget clearfix widget_invisible grpelem" id="pamphletu9980" data-islightbox="true"><!-- none box -->
-           <div class="ThumbGroup clearfix grpelem" id="u9981"><!-- none box -->
-            <div class="popup_anchor" id="u9982popup">
-             <div class="Thumb popup_element" id="u9982"><!-- simple frame --></div>
-            </div>
-           </div>
-           <div class="popup_anchor" id="u9986popup" data-lightbox="true">
-            <div class="ContainerGroup rgba-background clearfix" id="u9986"><!-- stack box -->
-             <div class="Container clearfix grpelem" id="u9987"><!-- column -->
-              <div class="rounded-corners clearfix colelem" id="u9988"><!-- group -->
-               <div class="clearfix grpelem" id="u9990-4"><!-- content -->
-                <p>EPSON</p>
-               </div>
-              </div>
-              <div class="clearfix colelem" id="pu9989-28"><!-- group -->
-               <div class="clearfix grpelem" id="u9989-28"><!-- content -->
-                <p id="u9989-2">Projetor PowerLite 2255U</p>
-                <p id="u9989-3">&nbsp;</p>
-                <p id="u9989-5">A Mais Avançada Tecnologia Epson</p>
-                <p id="u9989-7">em Soluções Interativas de Projeção</p>
-                <p id="u9989-8">&nbsp;</p>
-                <p id="u9989-10">• 5.000 ansilumens</p>
-                <p id="u9989-12">• FULL HD</p>
-                <p id="u9989-14">• Ideal para universidade</p>
-                <p id="u9989-16">• Miracast e wi-fi inclusos</p>
-                <p id="u9989-18">• Interatividade e colaboratividade</p>
-                <p id="u9989-20">• Compartilhamento de conteúdos (smartphones e tablets)</p>
-                <p id="u9989-22">• Registro da aula para disponibilização</p>
-                <p id="u9989-23">&nbsp;</p>
-                <p id="u9989-26"><a class="nonblock" href="assets/20555u.pdf">Ver folheto</a></p>
-               </div>
-               <div class="SlideShowWidget clearfix grpelem" id="slideshowu9991"><!-- none box -->
-                <div class="popup_anchor" data-col-pos="0" id="u9995popup">
-                 <div class="SlideShowContentPanel clearfix" data-col-pos="0" id="u9995"><!-- stack box -->
-                  <div class="SSSlide clip_frame grpelem" data-col-pos="0" id="u9996"><!-- image -->
-                   <img class="block ImageInclude" data-col-pos="0" id="u9996_img" data-src="images/1200wx1200h-12.jpg?crc=3952249263" src="images/blank.gif?crc=4208392903" alt="" data-width="400" data-height="267"/>
-                  </div>
-                  <div class="SSSlide invi clip_frame grpelem" data-col-pos="1" id="u9998"><!-- image -->
-                   <img class="block ImageInclude" data-col-pos="1" id="u9998_img" data-src="images/1200wx1200h-32.jpg?crc=441686909" src="images/blank.gif?crc=4208392903" alt="" data-width="350" data-height="233"/>
-                  </div>
-                  <div class="SSSlide invi clip_frame grpelem" data-col-pos="2" id="u10000"><!-- image -->
-                   <img class="block ImageInclude" data-col-pos="2" id="u10000_img" data-src="images/1200wx1200h-4.jpg?crc=77741224" src="images/blank.gif?crc=4208392903" alt="" data-width="405" data-height="270"/>
-                  </div>
-                 </div>
-                </div>
-                <div class="popup_anchor" data-col-pos="1" id="u10010popup">
-                 <div class="SSSlideLinks clearfix" data-col-pos="1" id="u10010"><!-- horizontal-rows box -->
-                  <div class="SSSlideLink clip_frame grpelem" data-col-pos="0" id="u10011"><!-- image -->
-                   <img class="block" data-col-pos="0" id="u10011_img" src="images/1200wx1200h-1174x1163.jpg?crc=497867636" alt="" width="174" height="116"/>
-                  </div>
-                  <div class="SSSlideLink clip_frame grpelem" data-col-pos="1" id="u10015"><!-- image -->
-                   <img class="block" data-col-pos="1" id="u10015_img" src="images/1200wx1200h-32.jpg?crc=441686909" alt="" width="150" height="100"/>
-                  </div>
-                  <div class="SSSlideLink clip_frame grpelem" data-col-pos="2" id="u10013"><!-- image -->
-                   <img class="block" data-col-pos="2" id="u10013_img" src="images/1200wx1200h-4180x120.jpg?crc=536671529" alt="" width="180" height="120"/>
-                  </div>
-                 </div>
-                </div>
-               </div>
-              </div>
-             </div>
-            </div>
-           </div>
-           <div class="popup_anchor" id="u9983popup">
-            <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" id="u9983"><!-- group -->
-             <div class="clearfix grpelem" id="u9984-4"><!-- content -->
-              <p>x</p>
-             </div>
-            </div>
-           </div>
-          </div>
-         </div>
-         <div class="shadow rounded-corners clearfix colelem" id="u10272"><!-- group -->
-          <div class="rounded-corners clearfix grpelem" id="u10283"><!-- group -->
-           <div class="clearfix grpelem" id="u10282-4"><!-- content -->
-            <p>CHROMEBOOK</p>
-           </div>
-          </div>
-          <div class="museBGSize grpelem" id="u10278"><!-- content --></div>
-          <div class="clearfix grpelem" id="u10275-14"><!-- content -->
-           <p id="u10275-2">Chromebook 2 ou 3 Samsung. Os mais vendidos do mercado privado.</p>
-           <p id="u10275-3">&nbsp;</p>
-           <p id="u10275-5">Um computador</p>
-           <p id="u10275-7">rápido e pronto</p>
-           <p id="u10275-9">para usar.</p>
-           <p id="u10275-10">&nbsp;</p>
-           <!--p id="u10275-12">Read More</p-->
-          </div>
-          <div class="PamphletWidget clearfix widget_invisible grpelem" id="pamphletu10290" data-islightbox="true"><!-- none box -->
-           <div class="ThumbGroup clearfix grpelem" id="u10292"><!-- none box -->
-            <div class="popup_anchor" id="u10293popup">
-             <div class="Thumb popup_element" id="u10293"><!-- simple frame --></div>
-            </div>
-           </div>
-           <div class="popup_anchor" id="u10296popup" data-lightbox="true">
-            <div class="ContainerGroup rgba-background clearfix" id="u10296"><!-- stack box -->
-             <div class="Container clearfix grpelem" id="u10297"><!-- column -->
-              <div class="rounded-corners clearfix colelem" id="u10429"><!-- group -->
-               <div class="clearfix grpelem" id="u10300-4"><!-- content -->
-                <p>CHROMEBOOK</p>
-               </div>
-              </div>
-              <div class="clearfix colelem" id="pu10299-7"><!-- group -->
-               <div class="clearfix grpelem" id="u10299-7"><!-- content -->
-                <p id="u10299-2">ChromeBook Samsung</p>
-                <p id="u10299-3">&nbsp;</p>
-                <p id="u10299-5">Optar por um Chromebook é ter sempre à mão um computador rápido e pronto para usar. Portátil, sempre atualizado, protegido contra vírus e com arquivos guardados de forma segura na nuvem. O Sistema Operacional Google Chrome se atualiza automaticamente sempre que necessário.</p>
-               </div>
-               <div class="SlideShowWidget clearfix grpelem" id="slideshowu10301"><!-- none box -->
-                <div class="popup_anchor" data-col-pos="0" id="u10318popup">
-                 <div class="SlideShowContentPanel clearfix" data-col-pos="0" id="u10318"><!-- stack box -->
-                  <div class="SSSlide clip_frame grpelem" data-col-pos="0" id="u10323"><!-- image -->
-                   <img class="block ImageInclude" data-col-pos="0" id="u10323_img" data-src="images/chromebook-pro_2-v2_52317.jpg?crc=450596582" src="images/blank.gif?crc=4208392903" alt="" data-width="400" data-height="300"/>
-                  </div>
-                  <div class="SSSlide invi clip_frame grpelem" data-col-pos="1" id="u10319"><!-- image -->
-                   <img class="block ImageInclude" data-col-pos="1" id="u10319_img" data-src="images/chromebook-pro_1-v2_52317.jpg?crc=88226982" src="images/blank.gif?crc=4208392903" alt="" data-width="400" data-height="300"/>
-                  </div>
-                  <div class="SSSlide invi clip_frame grpelem" data-col-pos="2" id="u10321"><!-- image -->
-                   <img class="block ImageInclude" data-col-pos="2" id="u10321_img" data-src="images/chromebook-pro_3-v2_52317.jpg?crc=142272275" src="images/blank.gif?crc=4208392903" alt="" data-width="334" data-height="300"/>
-                  </div>
-                 </div>
-                </div>
-                <div class="popup_anchor" data-col-pos="1" id="u10302popup">
-                 <div class="SSSlideLinks clearfix" data-col-pos="1" id="u10302"><!-- horizontal-rows box -->
-                  <div class="SSSlideLink clip_frame grpelem" data-col-pos="0" id="u10307"><!-- image -->
-                   <img class="block" data-col-pos="0" id="u10307_img" src="images/chromebook-pro_2-v2_52317155x116.jpg?crc=182094044" alt="" width="154" height="116"/>
-                  </div>
-                  <div class="SSSlideLink clip_frame grpelem" data-col-pos="1" id="u10303"><!-- image -->
-                   <img class="block" data-col-pos="1" id="u10303_img" src="images/chromebook-pro_1-v2_52317159x119.jpg?crc=4243244667" alt="" width="159" height="119"/>
-                  </div>
-                  <div class="SSSlideLink clip_frame grpelem" data-col-pos="2" id="u10305"><!-- image -->
-                   <img class="block" data-col-pos="2" id="u10305_img" src="images/chromebook-pro_3-v2_52317134x120.jpg?crc=3915795157" alt="" width="134" height="120"/>
-                  </div>
-                 </div>
-                </div>
-               </div>
-              </div>
-             </div>
-            </div>
-           </div>
-           <div class="popup_anchor" id="u10294popup">
-            <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" id="u10294"><!-- group -->
-             <div class="clearfix grpelem" id="u10295-4"><!-- content -->
-              <p>x</p>
-             </div>
-            </div>
-           </div>
-          </div>
-         </div>
-         <div class="shadow rounded-corners clearfix colelem" id="u11011"><!-- group -->
-          <div class="clearfix grpelem" id="u11014-7"><!-- content -->
-           <p id="u11014-2">Implantação do Gsuite e CMC</p>
-           <p id="u11014-3">&nbsp;</p>
-           <p id="u11014-5">Migração de conteúdos e arquivos, criação de novos e-mails e treinamento de professores para desenvolver aulas utilizando a plataforma Google GSuite.</p>
-          </div>
-          <div class="clearfix grpelem" id="pu11008"><!-- column -->
-           <div class="rounded-corners clearfix colelem" id="u11008"><!-- group -->
-            <div class="clearfix grpelem" id="u11005-4"><!-- content -->
-             <p>GSUITE</p>
-            </div>
-           </div>
-           <div class="museBGSize colelem" id="u11017"><!-- content --></div>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-     <div class="browser_width grpelem" id="u8953-bw">
-      <div id="u8953"><!-- group -->
-       <div class="clearfix" id="u8953_align_to_page">
-        <div class="museBGSize grpelem" id="u8753"><!-- content --></div>
-        <div class="clearfix grpelem" id="u7560-4"><!-- content -->
-         <p>A ÁGUIA EDUCAÇÃO também atua na consultoria em Real Estate para educação (terrenos e imóveis) e assessoria para relacionamento com investidores. Se você procura um sócio para sua escola, a Águia traz o investidor focado em educação, que respeitará sua metodologia pedagógica, bem como sua estrutura educacional. Se você deseja vender a escola, a Águia encontra o comprador adequado que preservará sua essência e a herança construída por você.</p>
-        </div>
-        <div class="grpelem" id="u11870"><!-- simple frame --></div>
-        <div class="grpelem" id="u11873"><!-- simple frame --></div>
-       </div>
-      </div>
-     </div>
-    </div>
-    <div class="clearfix colelem" id="pu9102"><!-- group -->
-     <div class="browser_width grpelem" id="u9102-bw">
-      <div id="u9102"><!-- simple frame --></div>
-     </div>
-     <div class="grpelem" id="u4269"><!-- Instagram --></div>
-     <div class="grpelem" id="u4272"><!-- content --></div>
-     <form class="form-grp clearfix grpelem" id="widgetu4273" method="post" enctype="multipart/form-data" action="scripts/form-u4273.php"><!-- none box -->
-      <div class="fld-grp clearfix grpelem" id="widgetu4274" data-required="true"><!-- none box -->
-       <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u4275-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu4274_input" name="custom_U4274" tabindex="3"/><label class="wrapped-input fld-prompt" id="widgetu4274_prompt" for="widgetu4274_input"><span class="actAsPara">Nome</span></label></span>
-      </div>
-      <div class="fld-grp clearfix grpelem" id="widgetu4282" data-required="true" data-type="email"><!-- none box -->
-       <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u4284-4"><!-- content --><input class="wrapped-input" type="email" spellcheck="false" id="widgetu4282_input" name="Email" tabindex="4"/><label class="wrapped-input fld-prompt" id="widgetu4282_prompt" for="widgetu4282_input"><span class="actAsPara">Email</span></label></span>
-      </div>
-      <div class="clearfix grpelem" id="u4287-4"><!-- content -->
-       <p>Enviando formulário…</p>
-      </div>
-      <div class="clearfix grpelem" id="u4289-4"><!-- content -->
-       <p>O servidor encontrou um erro.</p>
-      </div>
-      <div class="clearfix grpelem" id="u4288-4"><!-- content -->
-       <p>Formulário recebido.</p>
-      </div>
-      <button class="submit-btn NoWrap clearfix grpelem" id="u4286-4" type="submit" value="Enviar" tabindex="7"><!-- content -->
-       <div style="margin-top:-17px;height:17px;">
-        <p>Enviar</p>
-       </div>
-      </button>
-      <div class="fld-grp clearfix grpelem" id="widgetu4290" data-required="false"><!-- none box -->
-       <span class="fld-textarea actAsDiv clearfix grpelem" id="u4292-4"><!-- content --><textarea class="wrapped-input" id="widgetu4290_input" name="custom_U4290" tabindex="6"></textarea><label class="wrapped-input fld-prompt" id="widgetu4290_prompt" for="widgetu4290_input"><span class="actAsPara">Mensagem</span></label></span>
-      </div>
-      <div class="fld-grp clearfix grpelem" id="widgetu4278" data-required="true"><!-- none box -->
-       <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u4279-4"><!-- content --><input class="wrapped-input" type="tel" spellcheck="false" id="widgetu4278_input" name="custom_U4278" tabindex="5"/><label class="wrapped-input fld-prompt" id="widgetu4278_prompt" for="widgetu4278_input"><span class="actAsPara">Telefone</span></label></span>
-      </div>
-     </form>
-     <div class="clearfix grpelem" id="u4294-4"><!-- content -->
-      <p>Fale conosco</p>
-     </div>
-     <div class="clearfix grpelem" id="u11759-6"><!-- content -->
-      <p>+55 (11) 99909-9437</p>
-      <p>+55 (11) 94605-8300</p>
-     </div>
-    </div>
-    <div class="browser_width colelem" id="u1907-bw">
-     <div id="u1907"><!-- simple frame --></div>
-    </div>
-   </div>
-   <div class="clearfix grpelem" id="pslideshowu7161"><!-- group -->
-    <div class="SlideShowWidget clearfix align_parts_to_page HeroFillFrame mse_pre_init" id="slideshowu7161"><!-- none box -->
-     <div class="popup_anchor" id="u7191popup">
-      <div class="SlideShowContentPanel clearfix" id="u7191"><!-- stack box -->
-       <div class="SSSlide clip_frame grpelem" id="u7198"><!-- image -->
-        <img class="ImageInclude" id="u7198_img" data-src="images/fale.jpg?crc=3781834058" src="images/blank.gif?crc=4208392903" alt="" data-width="1636" data-height="965"/>
-       </div>
-      </div>
-     </div>
-    </div>
-    <nav class="MenuBar clearfix mse_pre_init" id="menuu6355"><!-- horizontal box -->
-     <div class="MenuItemContainer clearfix grpelem" id="u6363"><!-- vertical box -->
-      <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u6366" href="index.html#home"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u6368-4"><!-- content --><p>HOME</p></div></a>
-     </div>
-     <div class="MenuItemContainer clearfix grpelem" id="u6377"><!-- vertical box -->
-      <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u6378" href="index.html#quem"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u6381-4"><!-- content --><p>QUEM SOMOS</p></div></a>
-     </div>
-     <div class="MenuItemContainer clearfix grpelem" id="u6370"><!-- vertical box -->
-      <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u6373" href="index.html#clientes"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u6376-4"><!-- content --><p>CLIENTES</p></div></a>
-     </div>
-     <div class="MenuItemContainer clearfix grpelem" id="u6398"><!-- vertical box -->
-      <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u6399" href="index.html#parceiros"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u6400-4"><!-- content --><p>PARCEIROS</p></div></a>
-     </div>
-     <div class="MenuItemContainer clearfix grpelem" id="u6405"><!-- vertical box -->
-      <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u6406" href="index.html#produtos"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u6408-4"><!-- content --><p>PRODUTOS &amp; SERVIÇOS</p></div></a>
-     </div>
-     <div class="MenuItemContainer clearfix grpelem" id="u6391"><!-- vertical box -->
-      <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u6394" href="index.html#automacao"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u6396-4"><!-- content --><p>AUTOMAÇÃO</p></div></a>
-     </div>
-     <div class="MenuItemContainer clearfix grpelem" id="u7532"><!-- vertical box -->
-      <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u7533" href="index.html#consultoria"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u7536-4"><!-- content --><p>CONSULTORIA EM INVESTIMENTOS</p></div></a>
-     </div>
-     <div class="MenuItemContainer clearfix grpelem" id="u6384"><!-- vertical box -->
-      <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u6387" href="index.html#fale2"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u6388-4"><!-- content --><p>FALE CONOSCO</p></div></a>
-     </div>
-    </nav>
    </div>
   </div>
-  <!-- Other scripts -->
-  <script type="text/javascript">
-   // Decide whether to suppress missing file error or not based on preference setting
-var suppressMissingFileError = false
+  <div class="browser_width mse_pre_init" id="u4456-bw">
+   <div id="u4456"><!-- simple frame --></div>
+  </div>
+  <div class="browser_width mse_pre_init" id="u6354-bw">
+   <div id="u6354"><!-- simple frame --></div>
+  </div>
+ </div>
+ <div class="clearfix grpelem" id="pu11934"><!-- column -->
+  <div class="clearfix colelem" id="u11934"><!-- group -->
+   <a href="/bra/index.html">
+    <img id="flagBra" src="images/flag-br.png">
+   </a>
+   <a href="/usa/index.html">
+    <img id="flagUsa" src="images/flag-usa.png">
+   </a>
+   <div class="clearfix grpelem" id="u4458-4"><!-- content -->
+   </div>
+   <div class="clearfix grpelem" id="u4457"><!-- group -->
+   </div>
+  </div>
+  <div class="clearfix colelem" id="pu4405"><!-- group -->
+   <div class="grpelem" id="u4405"><!-- content --></div>
+   <nav class="MenuBar clearfix grpelem" id="menuu4406"><!-- vertical box -->
+    <div class="MenuItemContainer clearfix colelem" id="u4421"><!-- horizontal box -->
+     <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing transition clearfix grpelem" id="u4422" href="index.html#quem"><!-- vertical box --><div class="MenuItemLabel clearfix colelem" id="u4424-4"><!-- content --><p>QUEM SOMOS</p></div></a>
+    </div>
+    <div class="MenuItemContainer clearfix colelem" id="u4442"><!-- horizontal box -->
+     <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing transition clearfix grpelem" id="u4443" href="index.html#clientes"><!-- vertical box --><div class="MenuItemLabel clearfix colelem" id="u4445-4"><!-- content --><p>CLIENTES</p></div></a>
+    </div>
+    <div class="MenuItemContainer clearfix colelem" id="u4414"><!-- horizontal box -->
+     <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing transition clearfix grpelem" id="u4417" href="index.html#parceiros"><!-- vertical box --><div class="MenuItemLabel clearfix colelem" id="u4418-4"><!-- content --><p>PARCEIROS</p></div></a>
+    </div>
+    <div class="MenuItemContainer clearfix colelem" id="u4428"><!-- horizontal box -->
+     <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing transition clearfix grpelem" id="u4429" href="index.html#produtos"><!-- vertical box --><div class="MenuItemLabel clearfix colelem" id="u4431-4"><!-- content --><p>PRODUTOS &amp; SERVIÇOS</p></div></a>
+    </div>
+    <div class="MenuItemContainer clearfix colelem" id="u4435"><!-- horizontal box -->
+     <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing transition clearfix grpelem" id="u4436" href="index.html#automacao"><!-- vertical box --><div class="MenuItemLabel clearfix colelem" id="u4437-4"><!-- content --><p>AUTOMAÇÃO</p></div></a>
+    </div>
+    <div class="MenuItemContainer clearfix colelem" id="u7634"><!-- horizontal box -->
+     <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing transition clearfix grpelem" id="u7637" href="index.html#consultoria"><!-- vertical box --><div class="MenuItemLabel clearfix colelem" id="u7638-4"><!-- content --><p>LOCAÇÃO</p></div></a>
+    </div>
+    <div class="MenuItemContainer clearfix colelem" id="u4407"><!-- horizontal box -->
+     <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing transition clearfix grpelem" id="u4410" href="index.html#fale2"><!-- vertical box --><div class="MenuItemLabel clearfix colelem" id="u4412-4"><!-- content --><p>FALE CONOSCO</p></div></a>
+    </div>
+   </nav>
+   <div class="clearfix grpelem" id="u4460-6"><!-- content -->
+    <p>Águia Educação.</p>
+    <p>Sua Edutech Tem Solução.</p>
+   </div>
+  </div>
+
+  <a class="nonblock nontext anim_swing colelem" id="u4474" href="index.html#fale2"><!-- content --></a>
+  <div class="browser_width colelem" id="u8917-bw">
+   <div id="u8917"><!-- group -->
+    <div class="clearfix" id="u8917_align_to_page">
+     <div class="clearfix grpelem" id="pu2053"><!-- column -->
+      <div class="colelem" id="u2053"><!-- simple frame --></div>
+      <div class="clearfix colelem" id="u2056-10"><!-- content -->
+       <p id="u2056-2">A ÁGUIA EDUCAÇÃO é uma empresa de tecnologia educacional especialista em soluções para os mercados público e privado. São 24 anos de know-how em tecnologia para salas de aula e outros ambientes, desenvolvendo projetos especiais para escolas dos governos municipais, estaduais e federal. O trabalho da Águia é integrar equipamentos como computadores, projetores, notebooks, chromebooks, câmeras, segurança, rede, soluções Google For Education (transformação de domínio, implantação, ensalamento e formação técnica, formação pedagógica, formação dos gestores e educadores) e Apps (Edu Dash, Dashboard, Pruvo e outros).</p>
+       <p id="u2056-3">&nbsp;</p>
+       <p id="u2056-5">“NOSSA MISSÃO É FAZER COM QUE VOCÊ, SUA ESCOLA, SEU MUNICÍPIO OU SEU ESTADO, ENCONTREM EM UM ÚNICO FORNECEDOR TODA SOLUÇÃO PARA ENTRAR NA ERA DA MODERNIDADE E INOVAÇÃO COM RAPIDEZ E AGILIDADE.” </p>
+       <p id="u2056-6">&nbsp;</p>
+       <p id="u2056-8">— Letícia Souza</p>
+      </div>
+      <div class="colelem" id="u2059"><!-- simple frame --></div>
+     </div>
+     <div class="museBGSize grpelem" id="u2037"><!-- content --></div>
+    </div>
+   </div>
+  </div>
+  <div class="browser_width colelem" id="u8534-bw">
+   <div id="u8534"><!-- column -->
+    <div class="clearfix" id="u8534_align_to_page">
+     <div class="colelem" id="u11858"><!-- simple frame --></div>
+     <div class="clearfix colelem" id="pu3855"><!-- group -->
+      <div class="museBGSize grpelem" id="u3855"><!-- content --></div>
+      <div class="museBGSize grpelem" id="u3859"><!-- content --></div>
+      <div class="museBGSize grpelem" id="u3858"><!-- content --></div>
+      <div class="museBGSize grpelem" id="p3858"><!-- content --></div>
+     </div>
+     <div class="clearfix colelem" id="pu3857"><!-- group -->
+      <div class="museBGSize grpelem" id="u3857"><!-- content --></div>
+      <div class="museBGSize grpelem" id="u3856"><!-- content --></div>
+      <div class="museBGSize grpelem" id="u3854"><!-- content --></div>
+      <div class="museBGSize grpelem" id="u7583"><!-- content --></div>
+     </div>
+     <div class="colelem" id="u3852"><!-- simple frame --></div>
+     <div class="clearfix colelem" id="u3853-8"><!-- content -->
+      <p id="u3853-2">A Águia Educação, gerenciada pela Letícia Souza, é um exemplo de bom atendimento ao cliente! Sempre que precisamos fomos atendidos com rapidez e eficiência. E a entrega dos produtos em nossas escolas se dá no menor prazo possível. Recomendo para todos!</p>
+      <p id="u3853-3">&nbsp;</p>
+      <p id="u3853-6"><span id="u3853-4">— </span><span id="u3853-5">Luiz Eduardo Cortez Diniz Rocha Lima - Diretor Geral Centro Educacional Miraflores</span></p>
+     </div>
+     <div class="clearfix colelem" id="u9793-8"><!-- content -->
+      <p id="u9793-2">O principal diferencial de um fornecedor para a Escola Móbile é a parceria, ou seja, uma empresa que esteja conectada com o dia a dia da instituição e que entenda o que estamos fazendo, que fale a mesma língua e nos acompanhe em nossos objetivos de curto, médio e longo prazo. Para nós, uma venda é o começo de um relacionamento que extrapola os limites do comercial, um produto adquirido será utilizado na formação de um aluno, por esse motivo, exigimos de nossos parceiros o mesmo padrão de qualidade que aplicamos em nossa Escola. A ÁGUIA EDUCAÇÃO vai de encontro&nbsp; aos nossos valores, compartilha nossa visão, entende nossa missão e desde o princípio de nossa longa parceria sempre se destacou pela agilidade e rapidez em toda cadeia de fornecimento de seus produtos. Não temos dúvida de que todos os produtos do portfólio da ÁGUIA EDUCAÇÃO, desde sua eficiente linha de projetores interativos até seus equipamentos de uso individual (Chromebooks e tablets), apoiam nosso modelo de gerenciamento de serviços de tecnologia.”</p>
+      <p id="u9793-3">&nbsp;</p>
+      <p id="u9793-6"><span id="u9793-4">— </span><span id="u9793-5">Christian Serapiao - Tecnologia da Informação - Escola Mobile</span></p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="clearfix colelem" id="pu8926"><!-- group -->
+   <div class="browser_width grpelem" id="u8926-bw">
+    <div id="u8926"><!-- column -->
+     <div class="clearfix" id="u8926_align_to_page">
+      <div class="clearfix colelem" id="pu8617"><!-- group -->
+       <div class="grpelem" id="u8617"><!-- content --></div>
+       <div class="grpelem" id="u3881"><!-- simple frame --></div>
+       <div class="grpelem" id="u3882"><!-- simple frame --></div>
+       <div class="grpelem" id="u3883"><!-- content --></div>
+       <div class="museBGSize grpelem" id="u3884"><!-- content --></div>
+       <div class="museBGSize grpelem" id="u3886"><!-- content --></div>
+       <div class="museBGSize grpelem" id="s3886"><!-- content --></div>
+       <div class="museBGSize grpelem" id="l3886"><!-- content --></div>
+      </div>
+      <div class="clearfix colelem" id="pu4049-4"><!-- group -->
+       <div class="clearfix grpelem" id="u4049-4"><!-- content -->
+        <p>Vídeo Conferência integrada ao 1460UI</p>
+       </div>
+       <div class="clearfix grpelem" id="u4053-4"><!-- content -->
+        <p>Telefonia IP</p>
+       </div>
+       <div class="clearfix grpelem" id="u4055-4"><!-- content -->
+        <p>Automação de Ambientes</p>
+       </div>
+      </div>
+      <div class="clearfix colelem" id="pu4042"><!-- group -->
+       <div class="museBGSize grpelem" id="u4042"><!-- content --></div>
+       <div class="museBGSize grpelem" id="u4045"><!-- content --></div>
+       <div class="museBGSize grpelem" id="u4047"><!-- content --></div>
+      </div>
+      <div class="clearfix colelem" id="pu4057-6"><!-- group -->
+       <div class="clearfix grpelem" id="u4057-6"><!-- content -->
+        <p id="u4057">&nbsp;</p>
+        <p id="u4057-3">Descubra as vantagens que a videoconferência pode oferecer à sua empresa com uma experiência de reunião face a face, produtiva e em pessoa.</p>
+        <p id="u4057-4">&nbsp;</p>
+       </div>
+       <div class="clearfix grpelem" id="u4060-5"><!-- content -->
+        <p>&nbsp;</p>
+        <p>Reduza custos e aumente a produtividade de sua empresa com as soluções de telefonia ip.</p>
+       </div>
+       <div class="clearfix grpelem" id="u4062-6"><!-- content -->
+        <p id="u4062">&nbsp;</p>
+        <p id="u4062-3">Utilizar salas de reunião, auditórios, anfiteatros e outros espaços destinados à apresentação se tornou um grande desafio. Por isso, sistemas que automatizem todos os equipamentos tornaram suas apresentações mais simples.</p>
+        <p id="u4062-4">&nbsp;</p>
+       </div>
+      </div>
+      <div class="colelem" id="u4064"><!-- simple frame --></div>
+      <div class="colelem" id="u4067"><!-- simple frame --></div>
+      <div class="colelem" id="u4069"><!-- simple frame --></div>
+      <div class="clearfix colelem" id="pu4051-4"><!-- group -->
+       <div class="clearfix grpelem" id="u4051-4"><!-- content -->
+        <p>Salas e Auditórios Multimídia Integrados ao projetor 2255U e L1405</p>
+       </div>
+       <div class="clearfix grpelem" id="u4054-4"><!-- content -->
+        <p>Videowall</p>
+       </div>
+       <div class="clearfix grpelem" id="u4056-4"><!-- content -->
+        <p>Digital Signage</p>
+       </div>
+      </div>
+      <div class="clearfix colelem" id="pu4043"><!-- group -->
+       <div class="museBGSize grpelem" id="u4043"><!-- content --></div>
+       <div class="museBGSize grpelem" id="u4046"><!-- content --></div>
+       <div class="museBGSize grpelem" id="u4048"><!-- content --></div>
+      </div>
+      <div class="clearfix colelem" id="pu4058-6"><!-- group -->
+       <div class="clearfix grpelem" id="u4058-6"><!-- content -->
+        <p id="u4058">&nbsp;</p>
+        <p id="u4058-3">Ter uma sala de reunião ou um auditório com sistemas integrados de áudio, vídeo e dados permitirá múltiplos cenários durante uma apresentação o que fará com que a absorção do que é apresentado alcance maiores resultados.</p>
+        <p id="u4058-4">&nbsp;</p>
+       </div>
+       <div class="clearfix grpelem" id="u4061-6"><!-- content -->
+        <p id="u4061">&nbsp;</p>
+        <p id="u4061-3">A nitidez da imagem se faz necessária nas mais diversas aplicações, por isso a resolução se tornou um ponto crucial. Assim, soluções de videowall garantem a nitidez e resolução da imagem que você precisa.</p>
+        <p id="u4061-4">&nbsp;</p>
+       </div>
+       <div class="clearfix grpelem" id="u4063-5"><!-- content -->
+        <p>&nbsp;</p>
+        <p>A necessidade de informação em tempo real se tornou uma ferramenta de grande importância para a humanidade. Soluções de digital signage permite que instituições se comuniquem de forma rápida e pratica garantindo os seus resultados.</p>
+       </div>
+      </div>
+      <div class="colelem" id="u4065"><!-- simple frame --></div>
+      <div class="colelem" id="u4068"><!-- simple frame --></div>
+      <div class="colelem" id="u4070"><!-- simple frame --></div>
+     </div>
+    </div>
+   </div>
+   <div class="browser_width grpelem" id="u11867-bw">
+    <div id="u11867"><!-- group -->
+     <div class="clearfix" id="u11867_align_to_page">
+      <div class="clearfix grpelem" id="pu3905"><!-- column -->
+       <div class="shadow rounded-corners clearfix colelem" id="u3905"><!-- group -->
+        <div class="clearfix grpelem" id="pu3917-15"><!-- group -->
+         <div class="clearfix grpelem" id="u3917-15"><!-- content -->
+          <p id="u3917-2">Projetor com interatividade para salas de aulas e reuniões.</p>
+          <p id="u3917-3">&nbsp;</p>
+          <p id="u3917-5">O projetor interativo mais completo e com a tecnologia mais avançada do mercado.</p>
+          <p id="u3917-11">&nbsp;</p>
+          <!--p id="u3917-13">Read More</p-->
+         </div>
+         <div class="PamphletWidget clearfix widget_invisible grpelem" id="pamphletu9578" data-islightbox="true"><!-- none box -->
+          <div class="ThumbGroup clearfix grpelem" id="u9590"><!-- none box -->
+           <div class="popup_anchor" id="u9592popup">
+            <div class="Thumb popup_element" id="u9592"><!-- simple frame --></div>
+           </div>
+          </div>
+          <div class="popup_anchor" id="u9583popup" data-lightbox="true">
+           <div class="ContainerGroup rgba-background clearfix" id="u9583"><!-- stack box -->
+            <div class="Container clearfix grpelem" id="u9584"><!-- column -->
+             <div class="rounded-corners clearfix colelem" id="u9642"><!-- group -->
+              <div class="clearfix grpelem" id="u9643-4"><!-- content -->
+               <p>EPSON</p>
+              </div>
+             </div>
+             <div class="clearfix colelem" id="pu9644-24"><!-- group -->
+              <div class="clearfix grpelem" id="u9644-24"><!-- content -->
+               <p id="u9644-2">Projetor Epson BrightLink 695Wi+</p>
+               <p id="u9644-3">&nbsp;</p>
+               <p id="u9644-5">A Mais Avançada Tecnologia Epson</p>
+               <p id="u9644-7">em Soluções Interativas de Projeção</p>
+               <p id="u9644-8">&nbsp;</p>
+               <p id="u9644-10">• 3.500 ansilumens</p>
+               <p id="u9644-12">• Autonomia de lâmpada - 10.000/h (modo Eco)</p>
+               <p id="u9644-14">• Interatividade e colaboratividade</p>
+               <p id="u9644-16">• Compartilhamento de conteúdos (smartphones e tablets)</p>
+               <p id="u9644-18">• Registro da aula para disponibilização</p>
+               <p id="u9644-19">&nbsp;</p>
+               <p id="u9644-22"><a class="nonblock" href="assets/695wi.pdf">Ver folheto</a></p>
+              </div>
+              <div class="SlideShowWidget clearfix grpelem" id="slideshowu9645"><!-- none box -->
+               <div class="popup_anchor" data-col-pos="0" id="u9662popup">
+                <div class="SlideShowContentPanel clearfix" data-col-pos="0" id="u9662"><!-- stack box -->
+                 <div class="SSSlide clip_frame grpelem" data-col-pos="0" id="u9667"><!-- image -->
+                  <img class="block ImageInclude" data-col-pos="0" id="u9667_img" data-src="images/1200wx1200h-14.jpg?crc=53457261" src="images/blank.gif?crc=4208392903" alt="" data-width="400" data-height="267"/>
+                 </div>
+                 <div class="SSSlide invi clip_frame grpelem" data-col-pos="1" id="u9665"><!-- image -->
+                  <img class="block ImageInclude" data-col-pos="1" id="u9665_img" data-src="images/1200wx1200h.jpg?crc=4156831680" src="images/blank.gif?crc=4208392903" alt="" data-width="350" data-height="233"/>
+                 </div>
+                 <div class="SSSlide invi clip_frame grpelem" data-col-pos="2" id="u9663"><!-- image -->
+                  <img class="block ImageInclude" data-col-pos="2" id="u9663_img" data-src="images/1200wx1200h-2.jpg?crc=3812569690" src="images/blank.gif?crc=4208392903" alt="" data-width="350" data-height="233"/>
+                 </div>
+                </div>
+               </div>
+               <div class="popup_anchor" data-col-pos="1" id="u9654popup">
+                <div class="SSSlideLinks clearfix" data-col-pos="1" id="u9654"><!-- horizontal-rows box -->
+                 <div class="SSSlideLink clip_frame clearfix grpelem" data-col-pos="0" id="u9659"><!-- image -->
+                  <img class="position_content" data-col-pos="0" id="u9659_img" src="images/1200wx1200h-1174x116.jpg?crc=297225376" alt="" width="174" height="116"/>
+                 </div>
+                 <div class="SSSlideLink clip_frame grpelem" data-col-pos="1" id="u9657"><!-- image -->
+                  <img class="block" data-col-pos="1" id="u9657_img" src="images/1200wx1200h%202.png?crc=448615516" alt="" width="126" height="110"/>
+                 </div>
+                 <div class="SSSlideLink clip_frame grpelem" data-col-pos="2" id="u9655"><!-- image -->
+                  <img class="block" data-col-pos="2" id="u9655_img" src="images/1200wx1200h-2%202.png?crc=4261040545" alt="" width="147" height="87"/>
+                 </div>
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="popup_anchor" id="u9579popup">
+           <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" id="u9579"><!-- group -->
+            <div class="clearfix grpelem" id="u9580-4"><!-- content -->
+             <p>x</p>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="clearfix grpelem" id="pu8649"><!-- column -->
+         <div class="clearfix colelem" id="u8649"><!-- group -->
+          <div class="rounded-corners clearfix grpelem" id="u8651"><!-- group -->
+           <div class="clearfix grpelem" id="u8650-4"><!-- content -->
+            <p>EPSON</p>
+           </div>
+          </div>
+         </div>
+         <div class="museBGSize colelem" id="u8662"><!-- content --></div>
+        </div>
+       </div>
+       <div class="shadow rounded-corners clearfix colelem" id="u8722"><!-- group -->
+        <div class="rounded-corners clearfix grpelem" id="u8733"><!-- group -->
+         <div class="clearfix grpelem" id="u8732-4"><!-- content -->
+          <p>EPSON</p>
+         </div>
+        </div>
+        <div class="clearfix grpelem" id="u8725-16"><!-- content -->
+         <p id="u8725-2">Chromebook Samsung.</p>
+         <p id="u8725-3">&nbsp;</p>
+         <p id="u8725-5">PROJETOR LASER</p>
+         <p id="u8725-7">8.000 ansilumens</p>
+         <p id="u8725-9">Perfeito para auditórios</p>
+         <p id="u8725-11">e salas de reunião</p>
+         <p id="u8725-12">&nbsp;</p>
+         <!--p id="u8725-14">Read More</p-->
+        </div>
+        <div class="museBGSize grpelem" id="u8728"><!-- content --></div>
+        <div class="PamphletWidget clearfix widget_invisible grpelem" id="pamphletu10120" data-islightbox="true"><!-- none box -->
+         <div class="ThumbGroup clearfix grpelem" id="u10156"><!-- none box -->
+          <div class="popup_anchor" id="u10157popup">
+           <div class="Thumb popup_element" id="u10157"><!-- simple frame --></div>
+          </div>
+         </div>
+         <div class="popup_anchor" id="u10121popup" data-lightbox="true">
+          <div class="ContainerGroup rgba-background clearfix" id="u10121"><!-- stack box -->
+           <div class="Container clearfix grpelem" id="u10122"><!-- column -->
+            <div class="rounded-corners clearfix colelem" id="u10151"><!-- group -->
+             <div class="clearfix grpelem" id="u10150-4"><!-- content -->
+              <p>EPSON</p>
+             </div>
+            </div>
+            <div class="clearfix colelem" id="pu10149-25"><!-- group -->
+             <div class="clearfix grpelem" id="u10149-25"><!-- content -->
+              <p id="u10149-2">Projetor Pro L1405U</p>
+              <p id="u10149-3">&nbsp;</p>
+              <p id="u10149-5">A Mais Avançada Tecnologia Epson</p>
+              <p id="u10149-7">em Soluções Interativas de Projeção</p>
+              <p id="u10149-8">&nbsp;</p>
+              <p id="u10149-10">• 8.000 ansilumens</p>
+              <p id="u10149-12">• PROJETOR LASER</p>
+              <p id="u10149-14">• Perfeito para auditórios e salas de reunião</p>
+              <p id="u10149-16">• Qualidade de imagem excepcional</p>
+              <p id="u10149-18">• Até 20 mil horas de operação livre sem manutenção</p>
+              <p id="u10149-19">&nbsp;</p>
+              <p id="u10149-20">&nbsp;</p>
+              <p id="u10149-23"><a class="nonblock" href="assets/l1405.pdf">Ver folheto</a></p>
+             </div>
+             <div class="SlideShowWidget clearfix grpelem" id="slideshowu10123"><!-- none box -->
+              <div class="popup_anchor" data-col-pos="0" id="u10131popup">
+               <div class="SlideShowContentPanel clearfix" data-col-pos="0" id="u10131"><!-- stack box -->
+                <div class="SSSlide clip_frame grpelem" data-col-pos="0" id="u10132"><!-- image -->
+                 <img class="block ImageInclude" data-col-pos="0" id="u10132_img" data-src="images/1200wx1200h-13.jpg?crc=4059196957" src="images/blank.gif?crc=4208392903" alt="" data-width="400" data-height="267"/>
+                </div>
+                <div class="SSSlide invi clip_frame grpelem" data-col-pos="1" id="u10134"><!-- image -->
+                 <img class="block ImageInclude" data-col-pos="1" id="u10134_img" data-src="images/1200wx1200h-6.jpg?crc=3989127644" src="images/blank.gif?crc=4208392903" alt="" data-width="350" data-height="233"/>
+                </div>
+                <div class="SSSlide invi clip_frame grpelem" data-col-pos="2" id="u10136"><!-- image -->
+                 <img class="block ImageInclude" data-col-pos="2" id="u10136_img" data-src="images/1200wx1200h-7.jpg?crc=276510365" src="images/blank.gif?crc=4208392903" alt="" data-width="405" data-height="270"/>
+                </div>
+               </div>
+              </div>
+              <div class="popup_anchor" data-col-pos="1" id="u10124popup">
+               <div class="SSSlideLinks clearfix" data-col-pos="1" id="u10124"><!-- horizontal-rows box -->
+                <div class="SSSlideLink clip_frame grpelem" data-col-pos="0" id="u10127"><!-- image -->
+                 <img class="block" data-col-pos="0" id="u10127_img" src="images/1200wx1200h-1174x1162.jpg?crc=6896107" alt="" width="174" height="116"/>
+                </div>
+                <div class="SSSlideLink clip_frame grpelem" data-col-pos="1" id="u10129"><!-- image -->
+                 <img class="block" data-col-pos="1" id="u10129_img" src="images/1200wx1200h-6.jpg?crc=3989127644" alt="" width="150" height="100"/>
+                </div>
+                <div class="SSSlideLink clip_frame grpelem" data-col-pos="2" id="u10125"><!-- image -->
+                 <img class="block" data-col-pos="2" id="u10125_img" src="images/1200wx1200h-7180x120.jpg?crc=221660406" alt="" width="180" height="120"/>
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="popup_anchor" id="u10154popup">
+          <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" id="u10154"><!-- group -->
+           <div class="clearfix grpelem" id="u10155-4"><!-- content -->
+            <p>x</p>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="shadow rounded-corners clearfix colelem" id="cardService"><!-- group -->
+        <div class="clearfix grpelem" id="u11040-19"><!-- content -->
+         <p id="u11040-2">Serviços de instalação</p>
+         <p id="u11040-3">&nbsp;</p>
+         <p id="u11040-5">• Projetores interativos, convencionais e alto brilho.</p>
+         <p id="u11040-7">• Móveis convencionais e com design personalizado.</p>
+         <p id="u11040-9">• Projeto e implantação de redes (Microsoft, Google ou Apple).</p>
+         <p id="u11040-11">• Projeto completo de audiovisual para salas de aula e auditórios.</p>
+         <p id="u11040-13">• Projeto de reforma de ambientes (arquitetura e engenharia).</p>
+         <p id="u11040-15">• Integração entre tecnologia e ambientes.</p>
+         <!--p id="u11040-17">Read More</p-->
+        </div>
+        <div class="PamphletWidget clearfix widget_invisible grpelem" id="pamphletu11268" data-islightbox="true"><!-- none box -->
+         <div class="ThumbGroup clearfix grpelem" id="u11271"><!-- none box -->
+          <div class="popup_anchor" id="u11272popup">
+           <div class="Thumb popup_element" id="u11272"><!-- simple frame --></div>
+          </div>
+         </div>
+         <div class="popup_anchor" id="u11274popup" data-lightbox="true">
+          <div class="ContainerGroup rgba-background clearfix" id="u11274"><!-- stack box -->
+           <div class="Container clearfix grpelem" id="u11275"><!-- column -->
+            <div class="rounded-corners clearfix colelem" id="u11277"><!-- group -->
+             <div class="clearfix grpelem" id="u11276-4"><!-- content -->
+              <p>SERVIÇOS</p>
+             </div>
+            </div>
+            <div class="clearfix colelem" id="pslideshowu11278"><!-- group -->
+             <div class="SlideShowWidget clearfix grpelem" id="slideshowu11278"><!-- none box -->
+              <div class="popup_anchor" data-col-pos="0" id="u11279popup">
+               <div class="SlideShowContentPanel clearfix" data-col-pos="0" id="u11279"><!-- stack box -->
+                <div class="SSSlide clip_frame grpelem" data-col-pos="0" id="u11284"><!-- image -->
+                 <img class="block ImageInclude" data-col-pos="0" id="u11284_img" data-src="images/1.jpg?crc=3938869590" src="images/blank.gif?crc=4208392903" alt="" data-width="411" data-height="308"/>
+                </div>
+                <div class="SSSlide invi clip_frame grpelem" data-col-pos="1" id="u11456"><!-- image -->
+                 <img class="block ImageInclude" data-col-pos="1" id="u11456_img" data-src="images/2.jpg?crc=405186545" src="images/blank.gif?crc=4208392903" alt="" data-width="410" data-height="308"/>
+                </div>
+                <div class="SSSlide invi clip_frame grpelem" data-col-pos="2" id="u11476"><!-- image -->
+                 <img class="block ImageInclude" data-col-pos="2" id="u11476_img" data-src="images/3.jpg?crc=319211002" src="images/blank.gif?crc=4208392903" alt="" data-width="410" data-height="308"/>
+                </div>
+                <div class="SSSlide invi clip_frame grpelem" data-col-pos="3" id="u11496"><!-- image -->
+                 <img class="block ImageInclude" data-col-pos="3" id="u11496_img" data-src="images/4.jpg?crc=3897338697" src="images/blank.gif?crc=4208392903" alt="" data-width="411" data-height="308"/>
+                </div>
+                <div class="SSSlide invi clip_frame grpelem" data-col-pos="4" id="u11516"><!-- image -->
+                 <img class="block ImageInclude" data-col-pos="4" id="u11516_img" data-src="images/5.jpg?crc=3854857332" src="images/blank.gif?crc=4208392903" alt="" data-width="411" data-height="308"/>
+                </div>
+                <div class="SSSlide invi clip_frame grpelem" data-col-pos="5" id="u11536"><!-- image -->
+                 <img class="block ImageInclude" data-col-pos="5" id="u11536_img" data-src="images/6.jpg?crc=4285707441" src="images/blank.gif?crc=4208392903" alt="" data-width="411" data-height="308"/>
+                </div>
+                <div class="SSSlide invi clip_frame grpelem" data-col-pos="6" id="u11556"><!-- image -->
+                 <img class="block ImageInclude" data-col-pos="6" id="u11556_img" data-src="images/7.jpg?crc=4204850527" src="images/blank.gif?crc=4208392903" alt="" data-width="411" data-height="308"/>
+                </div>
+                <div class="SSSlide invi clip_frame grpelem" data-col-pos="7" id="u11576"><!-- image -->
+                 <img class="block ImageInclude" data-col-pos="7" id="u11576_img" data-src="images/8.jpg?crc=472261690" src="images/blank.gif?crc=4208392903" alt="" data-width="411" data-height="308"/>
+                </div>
+                <div class="SSSlide invi clip_frame grpelem" data-col-pos="8" id="u11596"><!-- image -->
+                 <img class="block ImageInclude" data-col-pos="8" id="u11596_img" data-src="images/9.jpg?crc=473746840" src="images/blank.gif?crc=4208392903" alt="" data-width="411" data-height="308"/>
+                </div>
+               </div>
+              </div>
+              <div class="popup_anchor" data-col-pos="1" id="u11297popup">
+               <div class="SSSlideLinks clearfix" data-col-pos="1" id="u11297"><!-- horizontal-rows box -->
+                <div class="SSSlideLink clip_frame grpelem" data-col-pos="0" id="u11298"><!-- image -->
+                 <img class="block" data-col-pos="0" id="u11298_img" src="images/172x54.jpg?crc=473553590" alt="" width="71" height="53"/>
+                </div>
+                <div class="SSSlideLink clip_frame grpelem" data-col-pos="1" id="u11462"><!-- image -->
+                 <img class="block" data-col-pos="1" id="u11462_img" src="images/272x54.jpg?crc=4179385450" alt="" width="71" height="53"/>
+                </div>
+                <div class="SSSlideLink clip_frame grpelem" data-col-pos="2" id="u11482"><!-- image -->
+                 <img class="block" data-col-pos="2" id="u11482_img" src="images/372x54.jpg?crc=3963459369" alt="" width="71" height="53"/>
+                </div>
+                <div class="SSSlideLink clip_frame grpelem" data-col-pos="3" id="u11502"><!-- image -->
+                 <img class="block" data-col-pos="3" id="u11502_img" src="images/472x54.jpg?crc=4205623963" alt="" width="71" height="53"/>
+                </div>
+                <div class="SSSlideLink clip_frame grpelem" data-col-pos="4" id="u11522"><!-- image -->
+                 <img class="block" data-col-pos="4" id="u11522_img" src="images/572x54.jpg?crc=4022344076" alt="" width="71" height="53"/>
+                </div>
+                <div class="SSSlideLink clip_frame grpelem" data-col-pos="5" id="u11542"><!-- image -->
+                 <img class="block" data-col-pos="5" id="u11542_img" src="images/672x54.jpg?crc=175811349" alt="" width="71" height="53"/>
+                </div>
+                <div class="SSSlideLink clip_frame grpelem" data-col-pos="6" id="u11562"><!-- image -->
+                 <img class="block" data-col-pos="6" id="u11562_img" src="images/772x54.jpg?crc=4212111230" alt="" width="71" height="53"/>
+                </div>
+                <div class="SSSlideLink clip_frame grpelem" data-col-pos="7" id="u11582"><!-- image -->
+                 <img class="block" data-col-pos="7" id="u11582_img" src="images/872x54.jpg?crc=522757564" alt="" width="71" height="53"/>
+                </div>
+                <div class="SSSlideLink clip_frame grpelem" data-col-pos="8" id="u11602"><!-- image -->
+                 <img class="block" data-col-pos="8" id="u11602_img" src="images/972x54.jpg?crc=383620343" alt="" width="71" height="53"/>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="clearfix grpelem" id="u11662-23"><!-- content -->
+              <p id="u11662-2">Serviços de instalação</p>
+              <p id="u11662-3">&nbsp;</p>
+              <p id="u11662-6"><span id="u11662-4">• </span><span id="u11662-5">Projetores interativos, convencionais e alto brilho.</span></p>
+              <p id="u11662-9"><span id="u11662-7">• </span><span id="u11662-8">Móveis convencionais e com design personalizado.</span></p>
+              <p id="u11662-12"><span id="u11662-10">• </span><span id="u11662-11">Projeto e implantação de redes (Microsoft, Google ou Apple).</span></p>
+              <p id="u11662-15"><span id="u11662-13">• </span><span id="u11662-14">Projeto completo de audiovisual para salas de aula e auditórios.</span></p>
+              <p id="u11662-18"><span id="u11662-16">• </span><span id="u11662-17">Projeto de reforma de ambientes (arquitetura e engenharia).</span></p>
+              <p id="u11662-21"><span id="u11662-19">• </span><span id="u11662-20">Integração entre tecnologia e ambientes.</span></p>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="popup_anchor" id="u11269popup">
+          <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" id="u11269"><!-- group -->
+           <div class="clearfix grpelem" id="u11270-4"><!-- content -->
+            <p>x</p>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="rounded-corners clearfix grpelem" id="u11037"><!-- group -->
+         <div class="clearfix grpelem" id="u11034-4"><!-- content -->
+          <p>SERVIÇOS</p>
+         </div>
+        </div>
+       </div>
+       <div class="shadow rounded-corners clearfix colelem" id="u10272"><!-- group -->
+        <img src="images/google.jpg" id="imgGoogle">
+       </div>
+      </div>
+      <div class="clearfix grpelem" id="pu8672"><!-- column -->
+       <div class="shadow rounded-corners clearfix colelem" id="u8672"><!-- group -->
+        <div class="clearfix grpelem" id="pu8675-14"><!-- group -->
+         <div class="clearfix grpelem" id="u8675-14"><!-- content -->
+          <p id="u8675-2">Projetores laser para salas de aula e pequenos auditórios.</p>
+          <!--p id="u8675-4">4.400&nbsp; ansilumens</p>
+          <p id="u8675-6">FULL HD, o projetor</p>
+          <p id="u8675-8">interativo para sua</p>
+          <p id="u8675-10">Empresa</p>
+          <p id="u8675-12">Read More</p-->
+         </div>
+         <div class="PamphletWidget clearfix widget_invisible grpelem" id="pamphletu9799" data-islightbox="true"><!-- none box -->
+          <div class="ThumbGroup clearfix grpelem" id="u9800"><!-- none box -->
+           <div class="popup_anchor" id="u9801popup">
+            <div class="Thumb popup_element" id="u9801"><!-- simple frame --></div>
+           </div>
+          </div>
+          <div class="popup_anchor" id="u9805popup" data-lightbox="true">
+           <div class="ContainerGroup rgba-background clearfix" id="u9805"><!-- stack box -->
+            <div class="Container clearfix grpelem" id="u9806"><!-- column -->
+             <div class="rounded-corners clearfix colelem" id="u9807"><!-- group -->
+              <div class="clearfix grpelem" id="u9809-4"><!-- content -->
+               <p>EPSON</p>
+              </div>
+             </div>
+             <div class="clearfix colelem" id="pu9808-24"><!-- group -->
+              <div class="clearfix grpelem" id="u9808-24"><!-- content -->
+               <p id="u9808-2">Epson BrightLink Pro 1460Ui</p>
+               <p id="u9808-3">&nbsp;</p>
+               <p id="u9808-5">A Mais Avançada Tecnologia Epson</p>
+               <p id="u9808-7">em Soluções Interativas de Projeção</p>
+               <p id="u9808-8">&nbsp;</p>
+               <p id="u9808-10">• 4.400 ansilumens</p>
+               <p id="u9808-12">• FULL HD, o projetor interativo para sua sala de reunião&nbsp;&nbsp; ou treinamento</p>
+               <p id="u9808-14">• Interatividade e colaboratividade</p>
+               <p id="u9808-16">• Compartilhamento de conteúdos (smartphones e tablets)</p>
+               <p id="u9808-18">• Registro de reunião para disponibilização</p>
+               <p id="u9808-19">&nbsp;</p>
+               <p id="u9808-22"><a class="nonblock" href="assets/1460ui.pdf">Ver folheto</a></p>
+              </div>
+              <div class="SlideShowWidget clearfix grpelem" id="slideshowu9810"><!-- none box -->
+               <div class="popup_anchor" data-col-pos="0" id="u9814popup">
+                <div class="SlideShowContentPanel clearfix" data-col-pos="0" id="u9814"><!-- stack box -->
+                 <div class="SSSlide clip_frame grpelem" data-col-pos="0" id="u9815"><!-- image -->
+                  <img class="block ImageInclude" data-col-pos="0" id="u9815_img" data-src="images/1200wx1200h-1.jpg?crc=398336006" src="images/blank.gif?crc=4208392903" alt="" data-width="400" data-height="267"/>
+                 </div>
+                 <div class="SSSlide invi clip_frame grpelem" data-col-pos="1" id="u9817"><!-- image -->
+                  <img class="block ImageInclude" data-col-pos="1" id="u9817_img" data-src="images/1200wx1200h-22.jpg?crc=243322380" src="images/blank.gif?crc=4208392903" alt="" data-width="350" data-height="233"/>
+                 </div>
+                 <div class="SSSlide invi clip_frame grpelem" data-col-pos="2" id="u9819"><!-- image -->
+                  <img class="block ImageInclude" data-col-pos="2" id="u9819_img" data-src="images/1200wx1200h-3.jpg?crc=3819476236" src="images/blank.gif?crc=4208392903" alt="" data-width="405" data-height="270"/>
+                 </div>
+                </div>
+               </div>
+               <div class="popup_anchor" data-col-pos="1" id="u9829popup">
+                <div class="SSSlideLinks clearfix" data-col-pos="1" id="u9829"><!-- horizontal-rows box -->
+                 <div class="SSSlideLink clip_frame clearfix grpelem" data-col-pos="0" id="u9830"><!-- image -->
+                  <img class="position_content" data-col-pos="0" id="u9830_img" src="images/1200wx1200h-1205x137.jpg?crc=4049817993" alt="" width="205" height="136"/>
+                 </div>
+                 <div class="SSSlideLink clip_frame grpelem" data-col-pos="1" id="u9834"><!-- image -->
+                  <img class="block" data-col-pos="1" id="u9834_img" src="images/1200wx1200h-22.jpg?crc=243322380" alt="" width="148" height="99"/>
+                 </div>
+                 <div class="SSSlideLink clip_frame grpelem" data-col-pos="2" id="u9832"><!-- image -->
+                  <img class="block" data-col-pos="2" id="u9832_img" src="images/1200wx1200h-3154x103.jpg?crc=3938908972" alt="" width="153" height="102"/>
+                 </div>
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="popup_anchor" id="u9802popup">
+           <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" id="u9802"><!-- group -->
+            <div class="clearfix grpelem" id="u9803-4"><!-- content -->
+             <p>x</p>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="clearfix grpelem" id="pu8681"><!-- column -->
+         <div class="clearfix colelem" id="u8681"><!-- group -->
+          <div class="rounded-corners clearfix grpelem" id="u8683"><!-- group -->
+           <div class="clearfix grpelem" id="u8682-4"><!-- content -->
+            <p>EPSON</p>
+           </div>
+          </div>
+         </div>
+         <div class="museBGSize colelem" id="u8678"><!-- content --></div>
+        </div>
+       </div>
+       <div class="shadow rounded-corners clearfix colelem" id="u12340"><!-- group -->
+        <div class="rounded-corners clearfix grpelem" id="u12211"><!-- group -->
+         <div class="clearfix grpelem" id="u12208-4"><!-- content -->
+          <p>EPSON</p>
+         </div>
+        </div>
+        <div class="clearfix grpelem" id="u12217-15"><!-- content -->
+         <p id="u12217-2">Chromebook Lenovo.</p>
+         <!--p id="u12217-3">&nbsp;</p>
+         <p id="u12217-5">PROJETOR LASER</p>
+         <p id="u12217-7">4.000 ansilumens</p>
+         <p id="u12217-9">Perfeito para salas de aula</p>
+         <p id="u12217-10">&nbsp;</p>
+         <p id="u12217-11">&nbsp;</p>
+         <!--p id="u12217-13">Read More</p-->
+        </div>
+        <div class="museBGSize grpelem" id="u12214"><!-- content --></div>
+        <div class="PamphletWidget clearfix widget_invisible grpelem" id="pamphletu12220" data-islightbox="true"><!-- none box -->
+         <div class="ThumbGroup clearfix grpelem" id="u12254"><!-- none box -->
+          <div class="popup_anchor" id="u12255popup">
+           <div class="Thumb popup_element" id="u12255"><!-- simple frame --></div>
+          </div>
+         </div>
+         <div class="popup_anchor" id="u12223popup" data-lightbox="true">
+          <div class="ContainerGroup rgba-background clearfix" id="u12223"><!-- stack box -->
+           <div class="Container clearfix grpelem" id="u12224"><!-- column -->
+            <div class="rounded-corners clearfix colelem" id="u12253"><!-- group -->
+             <div class="clearfix grpelem" id="u12252-4"><!-- content -->
+              <p>EPSON</p>
+             </div>
+            </div>
+            <div class="clearfix colelem" id="pu12225-21"><!-- group -->
+             <div class="clearfix grpelem" id="u12225-21"><!-- content -->
+              <p id="u12225-2">BrightLink 710Ui – Projetor interativo laser.</p>
+              <p id="u12225-3">&nbsp;</p>
+              <p id="u12225-5">A Mais Avançada Tecnologia Epson</p>
+              <p id="u12225-7">em Soluções Interativas de Projeção</p>
+              <p id="u12225-8">&nbsp;</p>
+              <p id="u12225-10">• 4.000 ansilumens</p>
+              <p id="u12225-12">• PROJETOR LASER</p>
+              <p id="u12225-14">• Perfeito para salas de aula</p>
+              <p id="u12225-15">&nbsp;</p>
+              <p id="u12225-16">&nbsp;</p>
+              <p id="u12225-19"><a class="nonblock" href="assets/bl710u.pdf">Ver folheto</a></p>
+             </div>
+             <div class="SlideShowWidget clearfix grpelem" id="slideshowu12226"><!-- none box -->
+              <div class="popup_anchor" data-col-pos="0" id="u12229popup">
+               <div class="SlideShowContentPanel clearfix" data-col-pos="0" id="u12229"><!-- stack box -->
+                <div class="SSSlide clip_frame grpelem" data-col-pos="0" id="u12232"><!-- image -->
+                 <img class="block ImageInclude" data-col-pos="0" id="u12232_img" data-src="images/bl710ui_hero_690x460.jpg?crc=4009371950" src="images/blank.gif?crc=4208392903" alt="" data-width="400" data-height="267"/>
+                </div>
+                <div class="SSSlide invi clip_frame grpelem" data-col-pos="1" id="u12230"><!-- image -->
+                 <img class="block ImageInclude" data-col-pos="1" id="u12230_img" data-src="images/bl710ui_back-panel_690x460.jpg?crc=4166587488" src="images/blank.gif?crc=4208392903" alt="" data-width="350" data-height="233"/>
+                </div>
+                <div class="SSSlide invi clip_frame grpelem" data-col-pos="2" id="u12234"><!-- image -->
+                 <img class="block ImageInclude" data-col-pos="2" id="u12234_img" data-src="images/bl710ui_hero-left_690x460.jpg?crc=157444665" src="images/blank.gif?crc=4208392903" alt="" data-width="405" data-height="270"/>
+                </div>
+               </div>
+              </div>
+              <div class="popup_anchor" data-col-pos="1" id="u12236popup">
+               <div class="SSSlideLinks clearfix" data-col-pos="1" id="u12236"><!-- horizontal-rows box -->
+                <div class="SSSlideLink clip_frame grpelem" data-col-pos="0" id="u12239"><!-- image -->
+                 <img class="block" data-col-pos="0" id="u12239_img" src="images/bl710ui_hero_690x460174x116.jpg?crc=400709104" alt="" width="174" height="116"/>
+                </div>
+                <div class="SSSlideLink clip_frame grpelem" data-col-pos="1" id="u12237"><!-- image -->
+                 <img class="block" data-col-pos="1" id="u12237_img" src="images/bl710ui_back-panel_690x460.jpg?crc=4166587488" alt="" width="150" height="100"/>
+                </div>
+                <div class="SSSlideLink clip_frame grpelem" data-col-pos="2" id="u12241"><!-- image -->
+                 <img class="block" data-col-pos="2" id="u12241_img" src="images/bl710ui_hero-left_690x460180x120.jpg?crc=3989633289" alt="" width="180" height="120"/>
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="popup_anchor" id="u12256popup">
+          <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" id="u12256"><!-- group -->
+           <div class="clearfix grpelem" id="u12257-4"><!-- content -->
+            <p>x</p>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="clearfix grpelem" id="pu8690"><!-- column -->
+       <div class="shadow rounded-corners clearfix colelem" id="u8690"><!-- group -->
+        <div class="clearfix grpelem" id="u8699"><!-- group -->
+         <div class="rounded-corners clearfix grpelem" id="u8700"><!-- group -->
+          <div class="clearfix grpelem" id="u8701-4"><!-- content -->
+           <p>EPSON</p>
+          </div>
+         </div>
+        </div>
+        <div class="clearfix grpelem" id="u8693-14"><!-- content -->
+         <p id="u8693-2">Projetores para auditórios/teatros.</p>
+         <!--p id="u8693-3">&nbsp;</p>
+         <p id="u8693-5">5.000 ansilumens</p>
+         <p id="u8693-7">FULL HD</p>
+         <p id="u8693-9">Ideal para universidade</p>
+         <p id="u8693-10">&nbsp;</p>
+         <p id="u8693-12">Read More</p-->
+        </div>
+        <div class="museBGSize grpelem" id="u8696"><!-- content --></div>
+        <div class="PamphletWidget clearfix widget_invisible grpelem" id="pamphletu9980" data-islightbox="true"><!-- none box -->
+         <div class="ThumbGroup clearfix grpelem" id="u9981"><!-- none box -->
+          <div class="popup_anchor" id="u9982popup">
+           <div class="Thumb popup_element" id="u9982"><!-- simple frame --></div>
+          </div>
+         </div>
+         <div class="popup_anchor" id="u9986popup" data-lightbox="true">
+          <div class="ContainerGroup rgba-background clearfix" id="u9986"><!-- stack box -->
+           <div class="Container clearfix grpelem" id="u9987"><!-- column -->
+            <div class="rounded-corners clearfix colelem" id="u9988"><!-- group -->
+             <div class="clearfix grpelem" id="u9990-4"><!-- content -->
+              <p>EPSON</p>
+             </div>
+            </div>
+            <div class="clearfix colelem" id="pu9989-28"><!-- group -->
+             <div class="clearfix grpelem" id="u9989-28"><!-- content -->
+              <p id="u9989-2">Projetor PowerLite 2255U</p>
+              <p id="u9989-3">&nbsp;</p>
+              <p id="u9989-5">A Mais Avançada Tecnologia Epson</p>
+              <p id="u9989-7">em Soluções Interativas de Projeção</p>
+              <p id="u9989-8">&nbsp;</p>
+              <p id="u9989-10">• 5.000 ansilumens</p>
+              <p id="u9989-12">• FULL HD</p>
+              <p id="u9989-14">• Ideal para universidade</p>
+              <p id="u9989-16">• Miracast e wi-fi inclusos</p>
+              <p id="u9989-18">• Interatividade e colaboratividade</p>
+              <p id="u9989-20">• Compartilhamento de conteúdos (smartphones e tablets)</p>
+              <p id="u9989-22">• Registro da aula para disponibilização</p>
+              <p id="u9989-23">&nbsp;</p>
+              <p id="u9989-26"><a class="nonblock" href="assets/20555u.pdf">Ver folheto</a></p>
+             </div>
+             <div class="SlideShowWidget clearfix grpelem" id="slideshowu9991"><!-- none box -->
+              <div class="popup_anchor" data-col-pos="0" id="u9995popup">
+               <div class="SlideShowContentPanel clearfix" data-col-pos="0" id="u9995"><!-- stack box -->
+                <div class="SSSlide clip_frame grpelem" data-col-pos="0" id="u9996"><!-- image -->
+                 <img class="block ImageInclude" data-col-pos="0" id="u9996_img" data-src="images/1200wx1200h-12.jpg?crc=3952249263" src="images/blank.gif?crc=4208392903" alt="" data-width="400" data-height="267"/>
+                </div>
+                <div class="SSSlide invi clip_frame grpelem" data-col-pos="1" id="u9998"><!-- image -->
+                 <img class="block ImageInclude" data-col-pos="1" id="u9998_img" data-src="images/1200wx1200h-32.jpg?crc=441686909" src="images/blank.gif?crc=4208392903" alt="" data-width="350" data-height="233"/>
+                </div>
+                <div class="SSSlide invi clip_frame grpelem" data-col-pos="2" id="u10000"><!-- image -->
+                 <img class="block ImageInclude" data-col-pos="2" id="u10000_img" data-src="images/1200wx1200h-4.jpg?crc=77741224" src="images/blank.gif?crc=4208392903" alt="" data-width="405" data-height="270"/>
+                </div>
+               </div>
+              </div>
+              <div class="popup_anchor" data-col-pos="1" id="u10010popup">
+               <div class="SSSlideLinks clearfix" data-col-pos="1" id="u10010"><!-- horizontal-rows box -->
+                <div class="SSSlideLink clip_frame grpelem" data-col-pos="0" id="u10011"><!-- image -->
+                 <img class="block" data-col-pos="0" id="u10011_img" src="images/1200wx1200h-1174x1163.jpg?crc=497867636" alt="" width="174" height="116"/>
+                </div>
+                <div class="SSSlideLink clip_frame grpelem" data-col-pos="1" id="u10015"><!-- image -->
+                 <img class="block" data-col-pos="1" id="u10015_img" src="images/1200wx1200h-32.jpg?crc=441686909" alt="" width="150" height="100"/>
+                </div>
+                <div class="SSSlideLink clip_frame grpelem" data-col-pos="2" id="u10013"><!-- image -->
+                 <img class="block" data-col-pos="2" id="u10013_img" src="images/1200wx1200h-4180x120.jpg?crc=536671529" alt="" width="180" height="120"/>
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="popup_anchor" id="u9983popup">
+          <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" id="u9983"><!-- group -->
+           <div class="clearfix grpelem" id="u9984-4"><!-- content -->
+            <p>x</p>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="browser_width grpelem" id="u8953-bw">
+    <div id="u8953"><!-- group -->
+     <div class="clearfix" id="u8953_align_to_page">
+      <div class="museBGSize grpelem" id="u8753"><!-- content --></div>
+      <div class="clearfix grpelem" id="u7560-4"><!-- content -->
+       <h1 id="epsonTitle">Programa de Locação Projetores Epson</h1>
+       <p>&nbsp;</p>
+       <p>Contrato de 36 meses, sendo 36 parcelas iguais e sem aumento de valores. Ao final da locação e pagando residual de 25%, a instituição poderá ficar com o bem. Ou poderá prorrogar a locação por mais 24 meses pelo mesmo valor de parcelas. VANTAGENS: garantia de 36 meses, com atendimento on-site e backup provisório quando necessário. Manutenção inclusa (partes e peças, lâmpadas, filtros de ar, bloco óptico etc.)</p>
+      </div>
+      <div class="grpelem" id="u11870"><!-- simple frame --></div>
+      <div class="grpelem" id="u11873"><!-- simple frame --></div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="clearfix colelem" id="pu9102"><!-- group -->
+   <div class="browser_width grpelem" id="u9102-bw">
+    <div id="u9102"><!-- simple frame --></div>
+   </div>
+   <a href="https://instagram.com/aguiaeducacao2020?igshid=YmMyMTA2M2Y= ">
+    <div class="grpelem" id="u4269"><!-- Instagram -->
+     <p id="u4270">Siga-nos em:</p>
+    </div>
+   </a>
+   <div class="grpelem" id="u4272"><!-- content --></div>
+   <form class="form-grp clearfix grpelem" id="widgetu4273" method="post" enctype="multipart/form-data" action="scripts/form-u4273.php"><!-- none box -->
+    <div class="fld-grp clearfix grpelem" id="widgetu4274" data-required="true"><!-- none box -->
+     <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u4275-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu4274_input" name="custom_U4274" tabindex="3"/><label class="wrapped-input fld-prompt" id="widgetu4274_prompt" for="widgetu4274_input"><span class="actAsPara">Nome</span></label></span>
+    </div>
+    <div class="fld-grp clearfix grpelem" id="widgetu4282" data-required="true" data-type="email"><!-- none box -->
+     <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u4284-4"><!-- content --><input class="wrapped-input" type="email" spellcheck="false" id="widgetu4282_input" name="Email" tabindex="4"/><label class="wrapped-input fld-prompt" id="widgetu4282_prompt" for="widgetu4282_input"><span class="actAsPara">Email</span></label></span>
+    </div>
+    <div class="clearfix grpelem" id="u4287-4"><!-- content -->
+     <p>Enviando formulário…</p>
+    </div>
+    <div class="clearfix grpelem" id="u4289-4"><!-- content -->
+     <p>O servidor encontrou um erro.</p>
+    </div>
+    <div class="clearfix grpelem" id="u4288-4"><!-- content -->
+     <p>Formulário recebido.</p>
+    </div>
+    <button class="submit-btn NoWrap clearfix grpelem" id="u4286-4" type="submit" value="Enviar" tabindex="7"><!-- content -->
+     <div style="margin-top:-17px;height:17px;">
+      <p>Enviar</p>
+     </div>
+    </button>
+    <div class="fld-grp clearfix grpelem" id="widgetu4290" data-required="false"><!-- none box -->
+     <span class="fld-textarea actAsDiv clearfix grpelem" id="u4292-4"><!-- content --><textarea class="wrapped-input" id="widgetu4290_input" name="custom_U4290" tabindex="6"></textarea><label class="wrapped-input fld-prompt" id="widgetu4290_prompt" for="widgetu4290_input"><span class="actAsPara">Mensagem</span></label></span>
+    </div>
+    <div class="fld-grp clearfix grpelem" id="widgetu4278" data-required="true"><!-- none box -->
+     <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u4279-4"><!-- content --><input class="wrapped-input" type="tel" spellcheck="false" id="widgetu4278_input" name="custom_U4278" tabindex="5"/><label class="wrapped-input fld-prompt" id="widgetu4278_prompt" for="widgetu4278_input"><span class="actAsPara">Telefone</span></label></span>
+    </div>
+   </form>
+   <div class="clearfix grpelem" id="u4294-4"><!-- content -->
+    <p>Fale conosco</p>
+   </div>
+   <div class="clearfix grpelem" id="u11759-6"><!-- content -->
+    <p>+55 (11) 99909-9437</p>
+    <p>+55 (11) 94605-8300</p>
+   </div>
+  </div>
+  <div class="browser_width colelem" id="u1907-bw">
+   <div id="u1907"><!-- simple frame --></div>
+  </div>
+ </div>
+ <div class="clearfix grpelem" id="pslideshowu7161"><!-- group -->
+  <div class="SlideShowWidget clearfix align_parts_to_page HeroFillFrame mse_pre_init" id="slideshowu7161"><!-- none box -->
+   <div class="popup_anchor" id="u7191popup">
+    <div class="SlideShowContentPanel clearfix" id="u7191"><!-- stack box -->
+     <div class="SSSlide clip_frame grpelem" id="u7198"><!-- image -->
+      <img class="ImageInclude" id="u7198_img" data-src="images/fale.jpg?crc=3781834058" src="images/blank.gif?crc=4208392903" alt="" data-width="1636" data-height="965"/>
+     </div>
+    </div>
+   </div>
+  </div>
+  <nav class="MenuBar clearfix mse_pre_init" id="menuu6355"><!-- horizontal box -->
+   <div class="MenuItemContainer clearfix grpelem" id="u6363"><!-- vertical box -->
+    <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u6366" href="index.html#home"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u6368-4"><!-- content --><p>HOME</p></div></a>
+   </div>
+   <div class="MenuItemContainer clearfix grpelem" id="u6377"><!-- vertical box -->
+    <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u6378" href="index.html#quem"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u6381-4"><!-- content --><p>QUEM SOMOS</p></div></a>
+   </div>
+   <div class="MenuItemContainer clearfix grpelem" id="u6370"><!-- vertical box -->
+    <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u6373" href="index.html#clientes"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u6376-4"><!-- content --><p>CLIENTES</p></div></a>
+   </div>
+   <div class="MenuItemContainer clearfix grpelem" id="u6398"><!-- vertical box -->
+    <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u6399" href="index.html#parceiros"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u6400-4"><!-- content --><p>PARCEIROS</p></div></a>
+   </div>
+   <div class="MenuItemContainer clearfix grpelem" id="u6405"><!-- vertical box -->
+    <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u6406" href="index.html#produtos"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u6408-4"><!-- content --><p>PRODUTOS &amp; SERVIÇOS</p></div></a>
+   </div>
+   <div class="MenuItemContainer clearfix grpelem" id="u6391"><!-- vertical box -->
+    <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u6394" href="index.html#automacao"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u6396-4"><!-- content --><p>AUTOMAÇÃO</p></div></a>
+   </div>
+   <div class="MenuItemContainer clearfix grpelem" id="u7532"><!-- vertical box -->
+    <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u7533" href="index.html#consultoria"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u7536-4"><!-- content --><p>LOCAÇÃO</p></div></a>
+   </div>
+   <div class="MenuItemContainer clearfix grpelem" id="u6384"><!-- vertical box -->
+    <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u6387" href="index.html#fale2"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u6388-4"><!-- content --><p>FALE CONOSCO</p></div></a>
+   </div>
+  </nav>
+ </div>
+</div>
+<!-- Other scripts -->
+<script type="text/javascript">
+ // Decide whether to suppress missing file error or not based on preference setting
+ var suppressMissingFileError = false
 </script>
-  <script type="text/javascript">
-   window.Muse.assets.check=function(c){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},d=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
+<script type="text/javascript">
+ window.Muse.assets.check=function(c){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},d=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
 
-16);return 0},f=function(f){for(var g=document.getElementsByTagName("link"),j=0;j<g.length;j++)if("text/css"==g[j].type){var l=(g[j].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!l||!l[1]||!l[2])break;b[l[1]]=l[2]}g=document.createElement("div");g.className="version";g.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(g);for(j=0;j<Muse.assets.required.length;){var l=Muse.assets.required[j],k=l.match(/([\w\-\.]+)\.(\w+)$/),i=k&&k[1]?
+         16);return 0},f=function(f){for(var g=document.getElementsByTagName("link"),j=0;j<g.length;j++)if("text/css"==g[j].type){var l=(g[j].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!l||!l[1]||!l[2])break;b[l[1]]=l[2]}g=document.createElement("div");g.className="version";g.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(g);for(j=0;j<Muse.assets.required.length;){var l=Muse.assets.required[j],k=l.match(/([\w\-\.]+)\.(\w+)$/),i=k&&k[1]?
 
-k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
+         k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 
-g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Alguns arquivos no servidor podem estar ausentes ou incorretos. Limpe o cache do navegador e tente novamente. Se o problema persistir, entre em contato com o autor do site.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
+  g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Alguns arquivos no servidor podem estar ausentes ou incorretos. Limpe o cache do navegador e tente novamente. Se o problema persistir, entre em contato com o autor do site.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 
-setTimeout(function(){f(!0)},5E3):f()}};
+         setTimeout(function(){f(!0)},5E3):f()}};
 
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.watch","jquery.musepolyfill.bgsize","jquery.musemenu","jquery.scrolleffects"],function(c){var $ = c;$(document).ready(function(){try{
-window.Muse.assets.check($);/* body */
-Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
-Muse.Utils.prepHyperlinks(true);/* body */
-Muse.Utils.resizeHeight('.browser_width');/* resize height */
-Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
-Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
-Muse.Utils.initWidget('#slideshowu7330', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:true,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'fullWidth',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu7330 */
-Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
-Muse.Utils.initWidget('#widgetu4461', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu4461 */
-Muse.Utils.initWidget('#slideshowu9645', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:false,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu9645 */
-Muse.Utils.initWidget('#pamphletu9578', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu9578 */
-Muse.Utils.initWidget('#slideshowu10123', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:false,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu10123 */
-Muse.Utils.initWidget('#pamphletu10120', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu10120 */
-Muse.Utils.initWidget('#slideshowu10639', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:false,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu10639 */
-Muse.Utils.initWidget('#pamphletu10630', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu10630 */
-Muse.Utils.initWidget('#slideshowu11278', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:false,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu11278 */
-Muse.Utils.initWidget('#pamphletu11268', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu11268 */
-Muse.Utils.initWidget('#slideshowu9810', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:false,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu9810 */
-Muse.Utils.initWidget('#pamphletu9799', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu9799 */
-Muse.Utils.initWidget('#slideshowu12226', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:false,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu12226 */
-Muse.Utils.initWidget('#pamphletu12220', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu12220 */
-Muse.Utils.initWidget('#slideshowu10879', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:false,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu10879 */
-Muse.Utils.initWidget('#pamphletu10869', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu10869 */
-Muse.Utils.initWidget('#slideshowu9991', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:false,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu9991 */
-Muse.Utils.initWidget('#pamphletu9980', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu9980 */
-Muse.Utils.initWidget('#slideshowu10301', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:false,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu10301 */
-Muse.Utils.initWidget('#pamphletu10290', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu10290 */
-Muse.Utils.initWidget('#widgetu4273', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu4273 */
-Muse.Utils.initWidget('#slideshowu7161', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:false,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'fullWidth',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu7161 */
-$('#slideshowu7330').registerPositionScrollEffect([{"in":[-Infinity,-0.05],"speed":[null,1]},{"in":[-0.05,Infinity],"speed":[null,0]}]);/* scroll effect */
-$('#u4456-bw').registerPositionScrollEffect([{"in":[-Infinity,-100],"speed":[null,0]},{"in":[-100,Infinity],"speed":[null,1]}]);/* scroll effect */
-$('#u6354-bw').registerPositionScrollEffect([{"in":[-Infinity,960],"speed":[null,1]},{"in":[960,Infinity],"speed":[null,0]}]);/* scroll effect */
-$('#slideshowu7161').registerPositionScrollEffect([{"in":[-Infinity,7301.05],"speed":[null,1]},{"in":[7301.05,Infinity],"speed":[null,0]}]);/* scroll effect */
-$('#menuu6355').registerPositionScrollEffect([{"in":[-Infinity,960],"speed":[0,1]},{"in":[960,Infinity],"speed":[0,0]}]);/* scroll effect */
-Muse.Utils.showWidgetsWhenReady();/* body */
-Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
-}catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
+ var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.watch","jquery.musepolyfill.bgsize","jquery.musemenu","jquery.scrolleffects"],function(c){var $ = c;$(document).ready(function(){try{
+  window.Muse.assets.check($);/* body */
+  Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+  Muse.Utils.prepHyperlinks(true);/* body */
+  Muse.Utils.resizeHeight('.browser_width');/* resize height */
+  Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
+  Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
+  Muse.Utils.initWidget('#slideshowu7330', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:true,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'fullWidth',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu7330 */
+  Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+  Muse.Utils.initWidget('#widgetu4461', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu4461 */
+  Muse.Utils.initWidget('#slideshowu9645', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:false,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu9645 */
+  Muse.Utils.initWidget('#pamphletu9578', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu9578 */
+  Muse.Utils.initWidget('#slideshowu10123', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:false,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu10123 */
+  Muse.Utils.initWidget('#pamphletu10120', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu10120 */
+  Muse.Utils.initWidget('#slideshowu10639', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:false,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu10639 */
+  Muse.Utils.initWidget('#pamphletu10630', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu10630 */
+  Muse.Utils.initWidget('#slideshowu11278', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:false,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu11278 */
+  Muse.Utils.initWidget('#pamphletu11268', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu11268 */
+  Muse.Utils.initWidget('#slideshowu9810', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:false,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu9810 */
+  Muse.Utils.initWidget('#pamphletu9799', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu9799 */
+  Muse.Utils.initWidget('#slideshowu12226', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:false,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu12226 */
+  Muse.Utils.initWidget('#pamphletu12220', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu12220 */
+  Muse.Utils.initWidget('#slideshowu10879', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:false,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu10879 */
+  Muse.Utils.initWidget('#pamphletu10869', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu10869 */
+  Muse.Utils.initWidget('#slideshowu9991', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:false,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu9991 */
+  Muse.Utils.initWidget('#pamphletu9980', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu9980 */
+  Muse.Utils.initWidget('#slideshowu10301', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:false,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu10301 */
+  Muse.Utils.initWidget('#pamphletu10290', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu10290 */
+  Muse.Utils.initWidget('#widgetu4273', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu4273 */
+  Muse.Utils.initWidget('#slideshowu7161', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:false,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'fullWidth',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu7161 */
+  $('#slideshowu7330').registerPositionScrollEffect([{"in":[-Infinity,-0.05],"speed":[null,1]},{"in":[-0.05,Infinity],"speed":[null,0]}]);/* scroll effect */
+  $('#u4456-bw').registerPositionScrollEffect([{"in":[-Infinity,-100],"speed":[null,0]},{"in":[-100,Infinity],"speed":[null,1]}]);/* scroll effect */
+  $('#u6354-bw').registerPositionScrollEffect([{"in":[-Infinity,960],"speed":[null,1]},{"in":[960,Infinity],"speed":[null,0]}]);/* scroll effect */
+  $('#slideshowu7161').registerPositionScrollEffect([{"in":[-Infinity,7301.05],"speed":[null,1]},{"in":[7301.05,Infinity],"speed":[null,0]}]);/* scroll effect */
+  $('#menuu6355').registerPositionScrollEffect([{"in":[-Infinity,960],"speed":[0,1]},{"in":[960,Infinity],"speed":[0,0]}]);/* scroll effect */
+  Muse.Utils.showWidgetsWhenReady();/* body */
+  Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+ }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
 
 
 </script>
-  <!-- RequireJS script -->
-  <script src="scripts/require.js?crc=7928878" type="text/javascript" async data-main="scripts/museconfig.js?crc=4286661555" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
-   </body>
+<!-- RequireJS script -->
+<script src="scripts/require.js?crc=7928878" type="text/javascript" async data-main="scripts/museconfig.js?crc=4286661555" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+</body>
 </html>
