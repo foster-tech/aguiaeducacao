@@ -1330,7 +1330,7 @@
     margin-right:-10000px;
     margin-top:78px;
     left:175px;
-    background:transparent url("../../images/695wi_rt_ang_mount.png?crc=4084545873") no-repeat left top;
+    background:transparent url("../../images/Q1.jpg?crc=4084545873") no-repeat left top;
     background-size:contain;
 }
 #pamphletu12801{
@@ -1646,7 +1646,7 @@
     margin-right:-10000px;
     margin-top:70px;
     left:193px;
-    background:transparent url("../../images/1450ui%20-%201460ui.png?crc=473454706") no-repeat left top;
+    background:transparent url("../../images/Q2.jpg?crc=473454706") no-repeat left top;
     background-size:contain;
 }
 #pamphletu12964{
@@ -1953,7 +1953,7 @@
     margin-right:-10000px;
     margin-top:66px;
     left:182px;
-    background:transparent url("../../images/eb-2255u_01%20impresion.png?crc=232551426") no-repeat left top;
+    background:transparent url("../../images/Q3.jpg?crc=232551426") no-repeat left top;
     background-size:contain;
 }
 #pamphletu13113{
@@ -2252,7 +2252,7 @@
     margin-right:-10000px;
     margin-top:44px;
     left:162px;
-    background:transparent url("../../images/1200wx1200h-1.png?crc=4200294368") no-repeat left top;
+    background:transparent url("../../images/Q4.png?crc=4200294368") no-repeat left top;
     background-size:contain;
 }
 #pamphletu13282{
@@ -2553,8 +2553,27 @@
     margin-right:-10000px;
     margin-top:53px;
     left:181px;
-    background:transparent url("../../images/bl710ui_hero-left_690x460-u13430-fr.jpg?crc=3849159294") no-repeat center center;
+    background:transparent url("../../images/Q5.png?crc=3849159294") no-repeat center center;
     background-size:contain;
+}
+#cardGoogle{
+    z-index: 80;
+    width: 351px;
+    height: 213px;
+    box-shadow: 2px 2px 8px rgb(127 127 127 / 50%);
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    left: 14px;
+    margin-top: 22px;
+    position: relative;
+}
+#imgGoogle{
+    width: 350px;
+    height: 160px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 42px;
 }
 #pamphletu13431{
     z-index:411;
