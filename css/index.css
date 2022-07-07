@@ -193,6 +193,9 @@
     margin-left:1197px;
     position:relative;
 }
+#u11934 a {
+    text-decoration: none;
+}
 #u4477{
     z-index:252;
     width:22px;
@@ -4300,7 +4303,7 @@
     left:5px;
 }
 #u10272{
-    width: 1350px;
+    width: 1343px;
     height: 500px;
     box-shadow: 2px 2px 8px rgb(127 127 127 / 50%);
     background-color: #FFFFFF;
@@ -4312,7 +4315,7 @@
     font-weight: bold;
 }
 #imgGoogle{
-    width: 1350px;
+    width: 1343px;
     height: 500px;
     background-color: #FFFFFF;
     border-radius: 5px;
