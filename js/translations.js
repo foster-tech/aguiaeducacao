@@ -137,8 +137,8 @@ $(function() {
               pt:"Contrato de 36 meses, sendo 36 parcelas iguais e sem aumento de valores. Ao final da locação e pagando residual de 25%, a instituição poderá ficar com o bem. Ou poderá prorrogar a locação por mais 24 meses pelo mesmo valor de parcelas. VANTAGENS: garantia de 36 meses, com atendimento on-site e backup provisório quando necessário. Manutenção inclusa (partes e peças, lâmpadas, filtros de ar, bloco óptico etc.)",
             },
             barMenu_1:{
-              en:"",
-              pt:"",
+              en:"HOME",
+              pt:"HOME",
             },
             barMenu_2:{
               en:"WHO WE ARE",
@@ -168,6 +168,21 @@ $(function() {
               en:"CONTACT US",
               pt:"FALE CONOSCO",
             },
+            "Fale conosco": { 
+              en: "Contact us",
+             },
+            "Nome": { 
+              en: "Name",
+             },
+            "Menssagem": { 
+              en: "Message",
+             },
+            "Telefone": { 
+              en: "Phone",
+             },
+            "Enviar": { 
+              en: "Send",
+             },
           };
 
           
@@ -183,7 +198,7 @@ $(function() {
                 "phone_placeHolder" : "Your phone",
                 "message_placeHolder" : "Your message",
               },
-              "es": {
+              "pt": {
                 "name_placeHolder" : "Nombre",
                 "email_placeHolder" : "E-mail",
                 "phone_placeHolder" : "Telefono",
@@ -202,8 +217,8 @@ $(function() {
               })
           };
         
-          // // Set default as PT
-          // set_lang(dictionary.pt);
+          // Set default as PT
+          set_lang(dictionary.pt);
     
           $(".lang_selector").click(function(ev) {
             var lang = $(this).attr("data-value");
@@ -214,6 +229,10 @@ $(function() {
             if (dictionary.hasOwnProperty(lang)) {
                 set_lang(dictionary[lang]);
             }
+            
+            //Replace images with text
+            $(".textimage").attr("src",`images/google_${lang}.jpg`)
+            $(".textimagephone").attr("src",`../images/google_${lang}.jpg`)
           });
         
       });

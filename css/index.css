@@ -1409,6 +1409,7 @@
     width:34px;
     height:34px;
     opacity: 1;
+    padding-left: 10px;
 }
 #s3886{
     z-index:339;
@@ -5461,7 +5462,7 @@ margin-top:195px;
 left:351px;
 }
 #u11759-6{
-z-index:477;
+z-index:55;
 width:214px;
 min-height:59px;
 background-color:transparent;
