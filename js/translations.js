@@ -141,31 +141,31 @@ $(function() {
               pt:"HOME",
             },
             barMenu_2:{
-              en:"WHO WE ARE",
+              en:"About",
               pt:"QUEM SOMOS",
             },
             barMenu_3:{
-              en:"CUSTOMERS",
+              en:"Clients",
               pt:"CLIENTES",
             },
             barMenu_4:{
-              en:"PARTNERS",
+              en:"Partnerships",
               pt:"PARCEIROS",
             },
             barMenu_5:{
-              en:"PRODUCTS & SERVICES",
+              en:"Products & Services",
               pt:"PRODUTOS & SERVIÇOS",
             },
             barMenu_6:{
-              en:"AUTOMATION",
+              en:"Automation",
               pt:"AUTOMAÇÃO",
             },
             barMenu_7:{
-              en:"LOCATION",
+              en:"Rental",
               pt:"LOCAÇÃO",
             },
             barMenu_8:{
-              en:"CONTACT US",
+              en:"CONTACT",
               pt:"FALE CONOSCO",
             },
             "Fale conosco": { 
