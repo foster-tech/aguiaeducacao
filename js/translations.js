@@ -1,8 +1,11 @@
 $(function() {
 
     var t = {
+            "Águia Educação.": { 
+              en: "Aguia Education.",
+             },
             "Sua Edutech Tem Solução.": { 
-              en: "Solution for you Edutech.",
+              en: "Your Edutech has a solution.",
              },
             service_1 : { 
               en: "Projector with interactivity for classrooms and meetings",
@@ -141,15 +144,15 @@ $(function() {
               pt:"HOME",
             },
             barMenu_2:{
-              en:"About",
+              en:"ABOUT",
               pt:"QUEM SOMOS",
             },
             barMenu_3:{
-              en:"Clients",
+              en:"CLIENTS",
               pt:"CLIENTES",
             },
             barMenu_4:{
-              en:"Partnerships",
+              en:"PARTNERSHIPS",
               pt:"PARCEIROS",
             },
             barMenu_5:{
@@ -161,7 +164,7 @@ $(function() {
               pt:"AUTOMAÇÃO",
             },
             barMenu_7:{
-              en:"Rental",
+              en:"RENTAL",
               pt:"LOCAÇÃO",
             },
             barMenu_8:{
