@@ -17,7 +17,7 @@ $(function() {
             },
             service_2:{
               en:"Laser projectors for classrooms and small auditoriums.",
-              pt:"Laser projectors for classrooms and small auditoriums.",
+              pt:"Projetores laser para salas de aula e pequenos auditórios.",
             },
             service_3:{
               en:"Projectors for auditoriums/theaters.",
@@ -156,11 +156,11 @@ $(function() {
               pt:"PARCEIROS",
             },
             barMenu_5:{
-              en:"Products & Services",
+              en:"PRODUCTS & SERVICES",
               pt:"PRODUTOS & SERVIÇOS",
             },
             barMenu_6:{
-              en:"Automation",
+              en:"AUTOMATION",
               pt:"AUTOMAÇÃO",
             },
             barMenu_7:{
