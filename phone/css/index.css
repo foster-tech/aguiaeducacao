@@ -1264,7 +1264,7 @@
 }
 #u12786{
     z-index:70;
-    min-height:1900px;
+    min-height:1650px;
     background-color:#F5A623;
 }
 #u12786_align_to_page{
@@ -5421,4 +5421,7 @@ body{
     margin-left: -120px;
     margin-top: 33px;
     color: #fff;
+}
+a.white{
+    color: #FFFFFF;
 }
